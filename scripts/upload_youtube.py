@@ -12,7 +12,6 @@ SCOPES = ["https://www.googleapis.com/auth/youtube.upload"]
 IDEAS_FILE = Path("data/ideas.json")
 OUTPUT_DIR = Path("output")
 
-
 def extract_code(raw_input: str) -> str:
     val = raw_input.strip()
     if "code=" in val:
@@ -28,10 +27,14 @@ def get_credentials() -> Credentials:
     client_secret = os.getenv("YOUTUBE_CLIENT_SECRET", "").strip()
     refresh_token = os.getenv("YOUTUBE_REFRESH_TOKEN", "").strip()
 
-    if not client_id:
-        client_id = input("1) Paste Client ID and press Enter: ").strip()
-    if not client_secret:
-        client_secret = input("2) Paste Client Secret and press Enter: ").strip()
+    if not (client_id and client_secret and refresh_token):
+    raise SystemExit(
+        "ERROR: Missing env vars. Set YOUTUBE_CLIENT_ID, "
+        "YOUTUBE_CLIENT_SECRET, YOUTUBE_REFRESH_TOKEN in GitHub Secrets."
+    )
+ 
+    
+ 
 
     if refresh_token:
         creds = Credentials(
@@ -70,7 +73,6 @@ def get_credentials() -> Credentials:
     creds = flow.credentials
 
     print("\n================ REFRESH TOKEN (SAVE THIS) ================")
-    print(creds.refresh_token)
     print("===========================================================\n")
     return creds
 
