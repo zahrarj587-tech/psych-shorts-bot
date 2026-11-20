@@ -1,5 +1,6 @@
 import asyncio
 import json
+import subprocess
 from pathlib import Path
 import edge_tts
 
@@ -9,7 +10,7 @@ OUTPUT_DIR = Path("output")
 
 
 def format_srt_time(seconds: float) -> str:
-    millis = int(round(seconds * 1000))
+    millis = max(0, int(round(seconds * 1000)))
     hours = millis // 3_600_000
     millis %= 3_600_000
     minutes = millis // 60_000
@@ -19,27 +20,39 @@ def format_srt_time(seconds: float) -> str:
     return f"{hours:02d}:{minutes:02d}:{secs:02d},{ms:03d}"
 
 
-def build_srt_from_events(events: list[dict]) -> str:
-    word_events = [e for e in events if e.get("type") == "WordBoundary"]
-    if not word_events:
+def get_duration(mp3_path: Path) -> float:
+    cmd = [
+        "ffprobe",
+        "-v", "error",
+        "-show_entries", "format=duration",
+        "-of", "default=noprint_wrappers=1:nokey=1",
+        str(mp3_path),
+    ]
+    res = subprocess.run(cmd, capture_output=True, text=True, check=True)
+    return max(1.0, float(res.stdout.strip()))
+
+
+def build_timed_srt(text: str, duration: float) -> str:
+    words = text.split()
+    if not words:
         return ""
 
-    chunks = []
-    chunk_size = 5
-    for idx in range(0, len(word_events), chunk_size):
-        group = word_events[idx : idx + chunk_size]
-        start_sec = group[0]["offset"] / 10_000_000
-        last = group[-1]
-        end_sec = (last["offset"] + last["duration"]) / 10_000_000
-        text = " ".join(w["text"].strip() for w in group if w.get("text", "").strip())
-        if text:
-            chunks.append((start_sec, end_sec, text))
-
+    chunk_size = 4
+    chunks = [" ".join(words[i : i + chunk_size]) for i in range(0, len(words), chunk_size)]
+    total_words = len(words)
+    current_t = 0.0
     lines = []
-    for i, (start_s, end_s, text) in enumerate(chunks, start=1):
-        lines.append(str(i))
-        lines.append(f"{format_srt_time(start_s)} --> {format_srt_time(end_s)}")
-        lines.append(text)
+
+    for idx, chunk in enumerate(chunks, start=1):
+        w_count = len(chunk.split())
+        seg_dur = duration * (w_count / total_words)
+        start_t = current_t
+        end_t = duration if idx == len(chunks) else current_t + seg_dur
+        current_t = end_t
+
+        lines.append(str(idx))
+        lines.append(f"{format_srt_time(start_t)} --> {format_srt_time(end_t)}")
+        lines.append(chunk)
         lines.append("")
 
     return "\n".join(lines).strip() + "\n"
@@ -56,21 +69,12 @@ async def generate_for_idea(idea: dict) -> None:
     srt_path = OUTPUT_DIR / f"idea_{idea_id}.srt"
 
     communicate = edge_tts.Communicate(text=script_text, voice=VOICE)
-    events = []
+    await communicate.save(str(audio_path))
 
-    with open(audio_path, "wb") as audio_file:
-        async for chunk in communicate.stream():
-            if chunk["type"] == "audio":
-                audio_file.write(chunk["data"])
-            elif chunk["type"] == "WordBoundary":
-                events.append(chunk)
-
-    srt_content = build_srt_from_events(events)
-    if srt_content.strip():
-        srt_path.write_text(srt_content, encoding="utf-8")
-        print(f"Saved audio & subtitles: {audio_path}, {srt_path}")
-    else:
-        print(f"Saved audio: {audio_path} (no word boundary events returned)")
+    duration = get_duration(audio_path)
+    srt_content = build_timed_srt(script_text, duration)
+    srt_path.write_text(srt_content, encoding="utf-8")
+    print(f"OK -> {audio_path} ({duration:.1f}s) | {srt_path} ({srt_path.stat().st_size} bytes)")
 
 
 async def main() -> None:
