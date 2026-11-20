@@ -19,5 +19,19 @@
     "hook": "If you explain everything immediately, people stop valuing your point.",
     "title": "A Quiet Psychology Rule That Changes Conversations",
     "script": "If you explain everything immediately, people stop valuing your point. Leaving space in a conversation makes others lean in and think deeper. Constant over-explaining often signals insecurity rather than certainty. State your point calmly, pause, and let the silence do the work."
+  },
+  {
+    "id": 4,
+    "visual_query": "clock time ticking shadows",
+    "hook": "Your brain treats unfinished tasks like open tabs draining your battery.",
+    "title": "Why Unfinished Tasks Exhaust Your Brain All Day",
+    "script": "Your brain treats unfinished tasks like open tabs draining your battery. Even when you are resting, open loops keep pulling attention in the background. Writing down the very next action closes the loop and frees mental energy. Clear the open tabs before you try to relax."
+  },
+  {
+    "id": 5,
+    "visual_query": "calm water ripples dark minimal",
+    "hook": "Calmness isn't the absence of stress. It's controlling your reaction speed.",
+    "title": "How Calm People Stay Untouched by Drama",
+    "script": "Calmness isn't the absence of stress. It's controlling your reaction speed. Most emotional regret happens in the first three seconds after a trigger. When you delay your reply, emotions lose momentum and logic catches up. Slow down the response, and you own the situation."
   }
 ]
