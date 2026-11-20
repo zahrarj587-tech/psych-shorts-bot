@@ -44,3 +44,13 @@ jobs:
           path: |
             output/*.mp4
             output/*_meta.json
+
+  - name: Upload video to YouTube
+    env:
+      YOUTUBE_CLIENT_ID: ${{ secrets.YOUTUBE_CLIENT_ID }}
+      YOUTUBE_CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
+      YOUTUBE_REFRESH_TOKEN: ${{ secrets.YOUTUBE_REFRESH_TOKEN }}
+      UPLOAD_IDEA_ID: ${{ inputs.idea_id || '1' }}
+      YOUTUBE_PRIVACY_STATUS: ${{ inputs.privacy_status || 'private' }}
+    run: |
+      python scripts/upload_youtube.py
