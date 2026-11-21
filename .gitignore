@@ -6,3 +6,4 @@ output/*.mp3
 output/*.srt
 *.tmp
 output/
+data/ideas.json

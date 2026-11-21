@@ -1,17 +1,20 @@
 name: Build and Upload YouTube Shorts
+
 permissions:
   contents: write
+
 on:
   push:
     branches: [main]
   workflow_dispatch:
     inputs:
-      idea_id:
-        description: 'Idea ID to upload'
-        default: '1'
       privacy_status:
         description: 'Privacy status'
         default: 'private'
+  schedule:
+    - cron: '0 14 * * *'
+    - cron: '0 18 * * *'
+    - cron: '0 23 * * *'
 
 jobs:
   build:
@@ -24,18 +27,18 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      - name: Install ffmpeg
-        run: sudo apt-get install -y ffmpeg
 
-      - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install -r requirements.txt
+      - name: Install ffmpeg
+        run: sudo apt-get install -y ffmpeg fonts-dejavu-core fontconfig
+
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
           pip install edge-tts
           pip install -r requirements.txt
+
+      - name: Select idea for this run
+        run: python scripts/select_idea.py
 
       - name: Generate audio, metadata, and videos
         env:
@@ -58,14 +61,15 @@ jobs:
           YOUTUBE_CLIENT_ID: ${{ secrets.YOUTUBE_CLIENT_ID }}
           YOUTUBE_CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
           YOUTUBE_REFRESH_TOKEN: ${{ secrets.YOUTUBE_REFRESH_TOKEN }}
-          UPLOAD_IDEA_ID: ${{ inputs.idea_id || '1' }}
           YOUTUBE_PRIVACY_STATUS: ${{ inputs.privacy_status || 'private' }}
         run: |
           python scripts/upload_youtube.py
+
       - name: Record published video
         run: |
           git config user.name "psych-shorts-bot"
           git config user.email "bot@users.noreply.github.com"
           git add data/published_ids.json
           git commit -m "chore: record published video" || echo "nothing to commit"
+          git pull --rebase origin main
           git push

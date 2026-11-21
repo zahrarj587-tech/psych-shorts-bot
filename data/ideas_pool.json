@@ -1,0 +1,107 @@
+[
+  {
+    "id": 1,
+    "visual_query": "stress thinking dark moody",
+    "hook": "Smart people fall for this psychological trap every single day.",
+    "title": "Why Smart People Make Terrible Decisions Under Pressure",
+    "script": "Smart people fall for this psychological trap every single day. When pressure spikes, your brain shifts from rational analysis to threat protection. Instead of finding the best solution, it looks for the fastest relief. That is why overthinking and panic often lead to the exact mistake you feared. Pause for ten seconds, name the emotion, and break the loop."
+  },
+  {
+    "id": 2,
+    "visual_query": "person alone walking night city",
+    "hook": "Most people don't fear failure. They fear looking foolish.",
+    "title": "The Hidden Reason You Delay Important Decisions",
+    "script": "Most people don't fear failure. They fear looking foolish. Procrastination is rarely about laziness. It is an emotional shield protecting your self-image from uncertainty. The longer you wait, the heavier the task feels in your mind. Shrink the first step so small that starting takes less than two minutes."
+  },
+  {
+    "id": 3,
+    "visual_query": "focus eyes reading calm light",
+    "hook": "If you explain everything immediately, people stop valuing your point.",
+    "title": "A Quiet Psychology Rule That Changes Conversations",
+    "script": "If you explain everything immediately, people stop valuing your point. Leaving space in a conversation makes others lean in and think deeper. Constant over-explaining often signals insecurity rather than certainty. State your point calmly, pause, and let the silence do the work."
+  },
+  {
+    "id": 4,
+    "visual_query": "clock time ticking shadows",
+    "hook": "Your brain treats unfinished tasks like open tabs draining your battery.",
+    "title": "Why Unfinished Tasks Exhaust Your Brain All Day",
+    "script": "Your brain treats unfinished tasks like open tabs draining your battery. Even when you are resting, open loops keep pulling attention in the background. Writing down the very next action closes the loop and frees mental energy. Clear the open tabs before you try to relax."
+  },
+  {
+    "id": 5,
+    "visual_query": "calm water ripples dark minimal",
+    "hook": "Calmness isn't the absence of stress. It's controlling your reaction speed.",
+    "title": "How Calm People Stay Untouched by Drama",
+    "script": "Calmness isn't the absence of stress. It's controlling your reaction speed. Most emotional regret happens in the first three seconds after a trigger. When you delay your reply, emotions lose momentum and logic catches up. Slow down the response, and you own the situation."
+  },
+  {
+    "id": 6,
+    "visual_query": "phone glow dark room",
+    "hook": "Checking your phone gives you a hit of dopamine before you even unlock it.",
+    "title": "The Real Reason You Can't Stop Checking Your Phone",
+    "script": "Checking your phone gives you a hit of dopamine before you even unlock it. Your brain releases it in anticipation of a reward, not from the reward itself. That's why silence feels unbearable and a notification feels like relief. Turn off badges and the craving loses its trigger."
+  },
+  {
+    "id": 7,
+    "visual_query": "empty theater seats dark",
+    "hook": "You keep going because you already paid, not because it's working.",
+    "title": "Why You Can't Quit Things That Aren't Working",
+    "script": "You keep going because you already paid, not because it's working. This is the sunk cost fallacy, and your brain treats past investment as a reason to continue. But time and money already spent can never be recovered by continuing. Decide based on what's ahead, not what you've already lost."
+  },
+  {
+    "id": 8,
+    "visual_query": "mirror reflection dark room",
+    "hook": "Your brain only shows you evidence that proves you right.",
+    "title": "The Bias That Makes You Always Feel Correct",
+    "script": "Your brain only shows you evidence that proves you right. It's called confirmation bias, and it filters out anything that challenges your existing beliefs. This is why two people can see the same facts and walk away more certain of opposite opinions. Actively search for the opposite view before you trust your own certainty."
+  },
+  {
+    "id": 9,
+    "visual_query": "city lights night window",
+    "hook": "You're not sad because your life is bad. You're sad because you're comparing it to a highlight reel.",
+    "title": "Why Everyone Else's Life Looks Better Than Yours",
+    "script": "You're not sad because your life is bad. You're sad because you're comparing it to a highlight reel. Social media shows curated peaks, never the average, boring afternoon. Compare your full story to someone else's highlight and you will always lose."
+  },
+  {
+    "id": 10,
+    "visual_query": "dark hallway door light",
+    "hook": "Every habit runs on the same loop: a cue, a routine, and a reward.",
+    "title": "The Hidden Loop Behind Every Habit You Have",
+    "script": "Every habit runs on the same loop: a cue, a routine, and a reward. Your brain doesn't care if the habit is good or bad, it just repeats what gets rewarded. To break one, keep the cue, insert a new routine, and still deliver a version of the reward. Remove the loop entirely and the craving fades within weeks."
+  },
+  {
+    "id": 11,
+    "visual_query": "empty office desk night",
+    "hook": "By the end of the day, your willpower isn't gone. It's just been spent.",
+    "title": "Why Your Willpower Disappears By Evening",
+    "script": "By the end of the day, your willpower isn't gone. It's just been spent, one small decision at a time. Every choice, even picking what to eat, drains the same mental resource. Make your most important decisions early, while that resource is still full."
+  },
+  {
+    "id": 12,
+    "visual_query": "price tag shadow dark",
+    "hook": "The first number you see controls every price you accept after it.",
+    "title": "Why The First Price You See Controls Your Decisions",
+    "script": "The first number you see controls every price you accept after it. This is the anchoring effect, and it works even when the first number is random. A discount looks bigger next to a high original price, even if the final cost is the same. Before you negotiate anything, know that the first offer sets the frame."
+  },
+  {
+    "id": 13,
+    "visual_query": "empty wallet dark table",
+    "hook": "Losing ten dollars hurts more than finding ten dollars feels good.",
+    "title": "Why Losing Feels Worse Than Winning Feels Good",
+    "script": "Losing ten dollars hurts more than finding ten dollars feels good. This is loss aversion, and it means your brain weighs losses about twice as heavily as equivalent gains. That's why you hold onto bad investments and bad situations longer than logic says you should. Name what you're actually afraid to lose, and the fear gets easier to question."
+  },
+  {
+    "id": 14,
+    "visual_query": "mountain fog peak dark",
+    "hook": "The less you know about something, the more confident you feel doing it.",
+    "title": "The Effect That Makes Beginners Overconfident",
+    "script": "The less you know about something, the more confident you feel doing it. This is the Dunning-Kruger effect, and real competence usually comes with more doubt, not less. The skill required to do something well is often the same skill required to notice you're doing it badly. Confidence without competence is a warning sign, not a strength."
+  },
+  {
+    "id": 15,
+    "visual_query": "empty shelves dark store",
+    "hook": "More options don't make you happier. They make you more afraid of choosing wrong.",
+    "title": "Why Too Many Options Make You Miserable",
+    "script": "More options don't make you happier. They make you more afraid of choosing wrong. With endless choices, every decision carries the weight of all the ones you didn't pick. Fewer, clearer options lead to faster decisions and less regret afterward."
+  }
+]
