@@ -1,83 +1,92 @@
-import json
 import os
 import sys
+import json
 from datetime import datetime, timezone
 from pathlib import Path
 from google.oauth2.credentials import Credentials
 from googleapiclient.discovery import build
 from googleapiclient.http import MediaFileUpload
 
-IDEAS_FILE = Path("data/ideas.json")
-PUBLISHED_FILE = Path("data/published_ids.json")
-OUTPUT_DIR = Path("output")
+BASE_DIR = Path(__file__).resolve().parent.parent
+IDEAS_FILE = BASE_DIR / "data" / "ideas.json"
+PUBLISHED_FILE = BASE_DIR / "data" / "published_ids.json"
+OUTPUT_DIR = BASE_DIR / "output"
 
+def get_authenticated_service():
+    client_id = os.environ.get("YOUTUBE_CLIENT_ID")
+    client_secret = os.environ.get("YOUTUBE_CLIENT_SECRET")
+    refresh_token = os.environ.get("YOUTUBE_REFRESH_TOKEN")
 
-def load_published() -> list:
-    if PUBLISHED_FILE.exists():
-        return json.loads(PUBLISHED_FILE.read_text(encoding="utf-8"))
-    return []
-
-
-def pick_next_idea(ideas: list, published: list) -> dict:
-    idx = len(published) % len(ideas)
-    return ideas[idx]
-
-
-def upload_video():
-    client_id     = os.getenv("YOUTUBE_CLIENT_ID", "").strip()
-    client_secret = os.getenv("YOUTUBE_CLIENT_SECRET", "").strip()
-    refresh_token = os.getenv("YOUTUBE_REFRESH_TOKEN", "").strip()
-    privacy       = os.getenv("YOUTUBE_PRIVACY_STATUS", "private").strip()
-
-    if not (client_id and client_secret and refresh_token):
-        sys.exit("ERROR: Missing YOUTUBE_CLIENT_ID / YOUTUBE_CLIENT_SECRET / YOUTUBE_REFRESH_TOKEN")
-
-    ideas = json.loads(IDEAS_FILE.read_text(encoding="utf-8"))
-    published = load_published()
-    idea = pick_next_idea(ideas, published)
-    idea_id = idea["id"]
-
-    video_file = OUTPUT_DIR / f"idea_{idea_id}.mp4"
-    meta_file  = OUTPUT_DIR / f"idea_{idea_id}_meta.json"
-
-    if not video_file.exists():
-        sys.exit(f"ERROR: Video file not found: {video_file}")
-
-    if meta_file.exists():
-        meta = json.loads(meta_file.read_text(encoding="utf-8"))
-        title = meta.get("title", idea.get("title", "Psychology Short"))
-        description = meta.get("description", "")
-        tags = meta.get("tags", [])
-    else:
-        title = idea.get("title", "Psychology Short")
-        description = idea.get("hook", "")
-        tags = []
+    if not all([client_id, client_secret, refresh_token]):
+        print("ERROR: Missing YouTube credentials in environment variables.")
+        sys.exit(1)
 
     creds = Credentials(
-        token=None,
+        None,
         refresh_token=refresh_token,
         token_uri="https://oauth2.googleapis.com/token",
         client_id=client_id,
-        client_secret=client_secret,
-        scopes=["https://www.googleapis.com/auth/youtube.upload"],
+        client_secret=client_secret
     )
-    youtube = build("youtube", "v3", credentials=creds)
+    return build("youtube", "v3", credentials=creds)
 
-    request = youtube.videos().insert(
-        part="snippet,status",
-        body={
-            "snippet": {
-                "title": title,
-                "description": description,
-                "tags": tags,
-                "categoryId": "22",
-            },
-            "status": {"privacyStatus": privacy},
+def upload_video():
+    if not IDEAS_FILE.exists():
+        print(f"Error: {IDEAS_FILE} not found.")
+        sys.exit(1)
+
+    ideas = json.loads(IDEAS_FILE.read_text(encoding="utf-8"))
+    if not ideas:
+        print("No idea selected.")
+        sys.exit(1)
+
+    # قراءة الفكرة مباشرة من ideas.json (حل مشكلة الازدواجية)
+    current_idea = ideas[0]
+    idea_id = current_idea["id"]
+
+    # فحص أمان: لو الفكرة دي اترفعت قبل كده نوقف
+    if PUBLISHED_FILE.exists():
+        published = json.loads(PUBLISHED_FILE.read_text(encoding="utf-8"))
+        if any(p["id"] == idea_id for p in published):
+            print(f"Error: Idea {idea_id} is already in published_ids.json. Aborting to prevent duplicate.")
+            sys.exit(1)
+    else:
+        published = []
+
+    video_file = OUTPUT_DIR / f"idea_{idea_id}.mp4"
+    meta_file = OUTPUT_DIR / f"idea_{idea_id}_meta.json"
+
+    if not video_file.exists():
+        print(f"Error: Video file not found: {video_file}")
+        sys.exit(1)
+    if not meta_file.exists():
+        print(f"Error: Metadata file not found: {meta_file}")
+        sys.exit(1)
+
+    meta = json.loads(meta_file.read_text(encoding="utf-8"))
+    title = meta.get("title", current_idea.get("title", "Psychology Short"))
+    description = meta.get("description", "")
+    tags = meta.get("tags", [])
+    privacy = os.environ.get("YOUTUBE_PRIVACY_STATUS", "private")
+
+    youtube = get_authenticated_service()
+
+    body = {
+        "snippet": {
+            "title": title,
+            "description": description,
+            "tags": tags,
+            "categoryId": "22",
         },
-        media_body=MediaFileUpload(str(video_file), chunksize=-1, resumable=True),
-    )
+        "status": {"privacyStatus": privacy},
+    }
 
     print(f"Uploading idea {idea_id}: {title}")
+    request = youtube.videos().insert(
+        part="snippet,status",
+        body=body,
+        media_body=MediaFileUpload(str(video_file), chunksize=-1, resumable=True)
+    )
     response = request.execute()
     video_id = response["id"]
     print(f"Done! Video ID: {video_id}")
@@ -91,7 +100,6 @@ def upload_video():
     PUBLISHED_FILE.parent.mkdir(parents=True, exist_ok=True)
     PUBLISHED_FILE.write_text(json.dumps(published, indent=2, ensure_ascii=False), encoding="utf-8")
     print(f"Updated {PUBLISHED_FILE} ({len(published)} total uploads)")
-
 
 if __name__ == "__main__":
     upload_video()
