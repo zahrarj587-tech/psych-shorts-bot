@@ -12,10 +12,9 @@ on:
         description: 'Privacy status'
         default: 'private'
   schedule:
-    - cron: '23 8 * * *'
-    - cron: '0 14 * * *'
-    - cron: '0 18 * * *'
-    - cron: '0 23 * * *'
+    - cron: '0 14 * * *'   # = 4م بتوقيت القاهرة تقريبًا
+    - cron: '0 18 * * *'   # = 8م بتوقيت القاهرة تقريبًا
+    - cron: '0 23 * * *'   # = 1ص بتوقيت القاهرة تقريبًا
 
 jobs:
   build:
