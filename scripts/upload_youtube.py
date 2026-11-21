@@ -23,7 +23,8 @@ def upload_video():
 
     youtube = build("youtube", "v3", credentials=creds)
 
-    video_file = os.getenv("VIDEO_FILE", "output/final_video.mp4")
+    idea_id    = os.getenv("UPLOAD_IDEA_ID", "1").strip()
+    video_file = os.getenv("VIDEO_FILE", f"output/idea_{idea_id}.mp4")
     title      = os.getenv("VIDEO_TITLE", "Psychology Short")
     desc       = os.getenv("VIDEO_DESC", "")
     privacy    = os.getenv("YOUTUBE_PRIVACY_STATUS", "private")
