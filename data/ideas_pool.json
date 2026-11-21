@@ -103,5 +103,110 @@
     "hook": "More options don't make you happier. They make you more afraid of choosing wrong.",
     "title": "Why Too Many Options Make You Miserable",
     "script": "More options don't make you happier. They make you more afraid of choosing wrong. With endless choices, every decision carries the weight of all the ones you didn't pick. Fewer, clearer options lead to faster decisions and less regret afterward."
+  },
+  {
+    "visual_query": "mountain peak fog sunrise",
+    "hook": "The less you know, the more confident you are.",
+    "title": "The Dunning-Kruger Effect Explained",
+    "script": "People with low ability often overestimate their competence. This is the Dunning-Kruger effect. When you know very little, you don't know what you don't know, leading to false confidence. As you learn more, you realize how vast the subject is, and your confidence drops. True mastery comes from recognizing your own ignorance.",
+    "id": 16
+  },
+  {
+    "visual_query": "crowded street walking fast",
+    "hook": "Why nobody helps in a crowd.",
+    "title": "The Bystander Effect",
+    "script": "The more people present, the less likely anyone is to help. This is the Bystander Effect. When many people witness an emergency, responsibility is diffused. Everyone assumes someone else will step in. To get help in a crowd, you must point to a specific person and ask them directly. That breaks the diffusion of responsibility.",
+    "id": 17
+  },
+  {
+    "visual_query": "spotlight stage dark theater",
+    "hook": "You are not the center of the universe.",
+    "title": "The Spotlight Effect",
+    "script": "You think everyone is watching you, but they're not. This is the Spotlight Effect. People overestimate how much others notice them. When you walk into a room, your brain magnifies your flaws and actions. In reality, everyone is too busy worrying about their own spotlight to notice yours. Stop worrying about being judged.",
+    "id": 18
+  },
+  {
+    "visual_query": "golden halo light portrait",
+    "hook": "Beautiful people get away with more.",
+    "title": "The Halo Effect",
+    "script": "We assume attractive people are also smart, kind, and trustworthy. This is the Halo Effect. Our brains create a positive impression based on one good trait and apply it to everything else. This cognitive bias affects hiring, dating, and justice. Be careful not to let one good quality blind you to someone's true character.",
+    "id": 19
+  },
+  {
+    "visual_query": "supermarket aisle choices",
+    "hook": "More options make you unhappy.",
+    "title": "The Paradox of Choice",
+    "script": "Having too many choices leads to anxiety and paralysis. This is the Paradox of Choice. When faced with dozens of options, we fear making the wrong one. Even after deciding, we compare it to the alternatives we left behind. Limit your options. Make a decision and commit, or you'll stay stuck in analysis paralysis.",
+    "id": 20
+  },
+  {
+    "visual_query": "chess pieces falling",
+    "hook": "Losing $100 hurts more than winning $100 feels good.",
+    "title": "Loss Aversion",
+    "script": "The pain of losing is twice as powerful as the pleasure of winning. This is Loss Aversion. Our brains are wired to avoid loss at all costs. This is why we stay in bad relationships or hold onto losing investments. To make better decisions, you must reframe loss as an opportunity to learn rather than a threat.",
+    "id": 21
+  },
+  {
+    "visual_query": "smoke and mirrors abstract",
+    "hook": "Why your brain lies to you.",
+    "title": "Cognitive Dissonance",
+    "script": "When your actions don't match your beliefs, your brain feels uncomfortable. This is Cognitive Dissonance. To resolve it, your brain makes up excuses. For example, if you smoke, you might tell yourself it's not that dangerous. Recognize when your brain is twisting reality to protect your ego.",
+    "id": 22
+  },
+  {
+    "visual_query": "teacher student classroom",
+    "hook": "Expectations shape reality.",
+    "title": "The Pygmalion Effect",
+    "script": "Higher expectations lead to better performance. This is the Pygmalion Effect. When teachers believe a student is gifted, they unconsciously invest more effort in them, leading the student to excel. Treat people as the best version of themselves, and they will rise to meet your expectations.",
+    "id": 23
+  },
+  {
+    "visual_query": "phone screen dark scrolling",
+    "hook": "Why you can't stop scrolling.",
+    "title": "Dopamine Detox",
+    "script": "Every time you check your phone, you get a hit of dopamine. But not the reward; the anticipation of a reward. This is a variable reward system. It keeps you hooked like a slot machine. To regain focus, do a dopamine detox. Remove the triggers. Let your brain reset to appreciate real, slow rewards.",
+    "id": 24
+  },
+  {
+    "visual_query": "price tag shopping",
+    "hook": "How the first number changes everything.",
+    "title": "Anchoring Bias",
+    "script": "The first piece of information you see heavily influences your decision. This is Anchoring Bias. A shirt priced at $100 seems cheap when placed next to a $500 shirt. Companies use this against you. Always evaluate the true value of something, not the numbers surrounding it.",
+    "id": 25
+  },
+  {
+    "visual_query": "newspaper magnifying glass",
+    "hook": "You only see what you want to see.",
+    "title": "Confirmation Bias",
+    "script": "We seek out information that confirms what we already believe. This is Confirmation Bias. It's why we only read articles from people we agree with and ignore opposing views. To think critically, actively look for information that proves you wrong. That's how you grow.",
+    "id": 26
+  },
+  {
+    "visual_query": "burning money frustration",
+    "hook": "Why you keep watching bad movies.",
+    "title": "The Sunk Cost Fallacy",
+    "script": "You paid for a movie, it's terrible, but you stay to get your money's worth. This is the Sunk Cost Fallacy. Your time and peace of mind are more valuable than the money already spent. Let go of what you've lost and focus on what you can still save.",
+    "id": 27
+  },
+  {
+    "visual_query": "stormy weather news",
+    "hook": "Why you fear the wrong things.",
+    "title": "The Availability Heuristic",
+    "script": "You fear plane crashes more than car crashes, though cars are far deadlier. This is the Availability Heuristic. We judge the likelihood of an event based on how easily examples come to mind. News media makes dramatic events seem common. Don't let vivid stories distort your sense of reality.",
+    "id": 28
+  },
+  {
+    "visual_query": "running track start",
+    "hook": "The 2-minute rule to beat procrastination.",
+    "title": "The 2-Minute Rule",
+    "script": "You don't need motivation to start; you need momentum. Use the 2-Minute Rule. If a task takes less than two minutes, do it immediately. If it takes longer, just commit to doing the first two minutes. Starting is the hardest part. Once you begin, your brain naturally wants to finish.",
+    "id": 29
+  },
+  {
+    "visual_query": "crowd cheering stadium",
+    "hook": "Why you buy things you don't need.",
+    "title": "Social Proof",
+    "script": "If everyone is doing it, it must be right. This is Social Proof. We look to others to determine the correct behavior, especially in uncertain situations. That's why companies use reviews and influencers. Be aware: the crowd is not always right. Think for yourself before you follow.",
+    "id": 30
   }
 ]
