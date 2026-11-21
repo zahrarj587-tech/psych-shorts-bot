@@ -12,6 +12,7 @@ on:
         description: 'Privacy status'
         default: 'private'
   schedule:
+    - cron: '23 8 * * *'
     - cron: '0 14 * * *'
     - cron: '0 18 * * *'
     - cron: '0 23 * * *'
