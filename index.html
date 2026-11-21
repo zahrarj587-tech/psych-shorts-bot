@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BEHAVIOR LAB - Control Room</title>
+    <style>
+        :root {
+            --bg-color: #0f172a;
+            --card-bg: #1e293b;
+            --text-main: #f8fafc;
+            --text-muted: #94a3b8;
+            --accent: #3b82f6;
+            --success: #10b981;
+            --warning: #f59e0b;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            margin: 0;
+            padding: 20px;
+        }
+        .container { max-width: 1000px; margin: auto; }
+        header { text-align: center; margin-bottom: 30px; border-bottom: 1px solid var(--card-bg); padding-bottom: 20px; }
+        h1 { margin: 0; color: var(--accent); font-size: 24px; letter-spacing: 1px; }
+        .subtitle { color: var(--text-muted); font-size: 14px; margin-top: 5px; }
+        
+        .stats-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; margin-bottom: 30px; }
+        .stat-card { background-color: var(--card-bg); padding: 20px; border-radius: 12px; text-align: center; box-shadow: 0 4px 6px rgba(0,0,0,0.3); }
+        .stat-value { font-size: 28px; font-weight: bold; color: var(--accent); }
+        .stat-label { font-size: 14px; color: var(--text-muted); margin-top: 5px; }
+        
+        .schedule-box { background-color: var(--card-bg); padding: 15px; border-radius: 12px; margin-bottom: 30px; border-left: 4px solid var(--warning); }
+        .schedule-box h3 { margin: 0 0 10px 0; font-size: 16px; }
+        .schedule-box p { margin: 0; font-size: 14px; color: var(--text-muted); }
+
+        table { width: 100%; border-collapse: collapse; background-color: var(--card-bg); border-radius: 12px; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.3); }
+        th, td { padding: 12px 15px; text-align: left; border-bottom: 1px solid #334155; font-size: 14px; }
+        th { background-color: #0f172a; color: var(--text-muted); font-weight: 600; text-transform: uppercase; font-size: 12px; }
+        tr:last-child td { border-bottom: none; }
+        .status-published { color: var(--success); font-weight: bold; }
+        .status-pending { color: var(--warning); font-weight: bold; }
+        .loading { text-align: center; color: var(--text-muted); padding: 30px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>BEHAVIOR LAB - CONTROL ROOM</h1>
+            <div class="subtitle">AI-Powered Media Company Dashboard</div>
+        </header>
+
+        <div class="stats-grid" id="stats">
+            <div class="stat-card"><div class="stat-value">-</div><div class="stat-label">Total Ideas</div></div>
+            <div class="stat-card"><div class="stat-value">-</div><div class="stat-label">Published Videos</div></div>
+            <div class="stat-card"><div class="stat-value">-</div><div class="stat-label">Remaining Ideas</div></div>
+        </div>
+
+        <div class="schedule-box">
+            <h3>⏰ Automated Schedule (Cairo Time)</h3>
+            <p>Daily at: 4:00 PM | 8:00 PM | 1:00 AM</p>
+        </div>
+
+        <div style="overflow-x: auto;">
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Title</th>
+                        <th>Status</th>
+                        <th>Video ID</th>
+                    </tr>
+                </thead>
+                <tbody id="ideas-table">
+                    <tr><td colspan="4" class="loading">Loading data from GitHub...</td></tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script>
+        const GITHUB_RAW_BASE = "https://raw.githubusercontent.com/zahrarj587-tech/psych-shorts-bot/main/data/";
+        
+        async function fetchDashboardData() {
+            try {
+                const [ideasRes, publishedRes] = await Promise.all([
+                    fetch(GITHUB_RAW_BASE + "ideas_pool.json"),
+                    fetch(GITHUB_RAW_BASE + "published_ids.json").catch(() => ({ ok: false }))
+                ]);
+
+                const ideas = await ideasRes.json();
+                let published = [];
+                if (publishedRes.ok) {
+                    published = await publishedRes.json();
+                }
+
+                renderDashboard(ideas, published);
+            } catch (error) {
+                document.getElementById("ideas-table").innerHTML = `<tr><td colspan="4" class="loading" style="color:#ef4444;">Error loading data: ${error.message}</td></tr>`;
+            }
+        }
+
+        function renderDashboard(ideas, published) {
+            const publishedMap = new Map();
+            published.forEach(p => publishedMap.set(p.id, p));
+
+            let html = "";
+            let publishedCount = 0;
+
+            ideas.forEach(idea => {
+                const isPublished = publishedMap.has(idea.id);
+                if (isPublished) publishedCount++;
+                
+                const statusClass = isPublished ? "status-published" : "status-pending";
+                const statusText = isPublished ? "Published" : "Pending";
+                const videoId = isPublished ? publishedMap.get(idea.id).video_id : "-";
+
+                html += `
+                    <tr>
+                        <td>${idea.id}</td>
+                        <td>${idea.title}</td>
+                        <td class="${statusClass}">${statusText}</td>
+                        <td>${videoId}</td>
+                    </tr>
+                `;
+            });
+
+            document.getElementById("ideas-table").innerHTML = html;
+
+            // Update Stats
+            const stats = document.querySelectorAll('.stat-value');
+            stats[0].innerText = ideas.length;
+            stats[1].innerText = publishedCount;
+            stats[2].innerText = ideas.length - publishedCount;
+        }
+
+        fetchDashboardData();
+    </script>
+</body>
+</html>
