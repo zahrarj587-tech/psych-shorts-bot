@@ -803,5 +803,355 @@
     "title": "The Comfort Zone",
     "script": "The comfort zone is a beautiful place, but nothing ever grows there. We fear change because our brains are wired for survival. The unknown feels dangerous. But on the other side of fear is freedom. Take small steps outside your comfort zone every day. Grow your capacity for discomfort.",
     "id": 115
+  },
+  {
+    "visual_query": "eyes looking deep",
+    "hook": "The secret meaning of eye contact.",
+    "title": "The Power of the Gaze",
+    "script": "When someone holds eye contact for more than 3 seconds, they are either deeply interested or trying to intimidate you. You can tell the difference by their pupils. Pupils dilate when someone is genuinely attracted or interested. If they are staring intensely with constricted pupils, it's a power move. Maintain your gaze to show confidence.",
+    "id": 116
+  },
+  {
+    "visual_query": "crossed arms barrier",
+    "hook": "What crossed arms really mean.",
+    "title": "The Barrier Signal",
+    "script": "Crossing your arms is a defensive posture. It creates a physical barrier between you and the other person. It means they are feeling uncomfortable, closed off, or disagreeing with what you are saying. If you see this, change your approach. Ask them an open question to break their defensive stance.",
+    "id": 117
+  },
+  {
+    "visual_query": "feet pointing away",
+    "hook": "Watch their feet to see if they like you.",
+    "title": "The Feet Never Lie",
+    "script": "Body language experts say the feet are the most honest part of the body. If someone's feet are pointing towards you, they are engaged and interested. If their feet are pointing towards the exit, their mind is already leaving. Next time you are on a date, look at their feet. They reveal their true intentions.",
+    "id": 118
+  },
+  {
+    "visual_query": "smile fake real",
+    "hook": "How to spot a fake smile.",
+    "title": "The Duchenne Smile",
+    "script": "A real smile involves the eyes, not just the mouth. This is called the Duchenne smile. When someone is genuinely happy, the muscles around their eyes contract, creating crow's feet. If someone smiles with just their mouth, it's a polite fake smile. They are hiding their true emotions. Look closely at the eyes.",
+    "id": 119
+  },
+  {
+    "visual_query": "hands touching neck",
+    "hook": "The nervous body language tell.",
+    "title": "The Neck Touch",
+    "script": "When people are nervous or feeling insecure, they often touch their neck or collar. It's a self-soothing gesture, a remnant of primate behavior to protect the throat. If you see someone doing this during a negotiation or a conversation, it means they are feeling anxious or defensive. It's the perfect time to push your point.",
+    "id": 120
+  },
+  {
+    "visual_query": "mirroring gestures",
+    "hook": "How to tell if someone likes you.",
+    "title": "The Mirroring Effect",
+    "script": "When you are deeply connected with someone, your bodies naturally sync up. You both cross your legs at the same time, or reach for your drink together. This is mirroring. It's a subconscious sign of rapport and attraction. If you want to test someone's interest, subtly change your posture. If they mirror you, they are hooked.",
+    "id": 121
+  },
+  {
+    "visual_query": "eyes looking up right",
+    "hook": "The body language of lying.",
+    "title": "The Lie Detection Myth",
+    "script": "You've probably heard that looking up and to the right means someone is lying. That's a myth. The real signs of deception are subtle. It's not one specific gesture, but a cluster of behaviors. Look for inconsistencies. If their words say 'I'm fine', but their voice is trembling and their hands are shaking, they are not fine. Trust the physical cues.",
+    "id": 122
+  },
+  {
+    "visual_query": "handshake strong confident",
+    "hook": "What your handshake says about you.",
+    "title": "The Dominant Handshake",
+    "script": "Your handshake can establish dominance or submission before you even speak. A firm handshake with palm facing down is a power move. A handshake with palm facing up is submissive. To project confidence, keep your hand vertical and match their grip strength. Eye contact during the handshake is crucial. It sets the tone for the entire interaction.",
+    "id": 123
+  },
+  {
+    "visual_query": "pupils dilated love",
+    "hook": "Why you can't stop looking at them.",
+    "title": "The Dilated Pupil Effect",
+    "script": "When you see someone you are attracted to, your pupils dilate. This happens because your brain is taking in more visual information. Interestingly, people find dilated pupils more attractive. It's a subconscious sign of interest. If you want to look more attractive on a date, look at the person you like. Your eyes will do the rest.",
+    "id": 124
+  },
+  {
+    "visual_query": "posture sitting confident",
+    "hook": "The posture that commands respect.",
+    "title": "Power Posture",
+    "script": "Taking up physical space projects confidence. If you slouch and make yourself small, you signal low status. If you sit with your legs spread and arms wide, you signal dominance. This is called a 'power pose'. Even if you don't feel confident, your posture can trick your brain into believing it. Sit tall. Own your space.",
+    "id": 125
+  },
+  {
+    "visual_query": "head tilt listening",
+    "hook": "The sign of active listening.",
+    "title": "The Head Tilt",
+    "script": "When someone tilts their head while you are talking, it is a sign of active listening and empathy. It exposes their neck, showing they trust you. It also opens their ear towards you to hear better. If you want to appear more approachable and empathetic, tilt your head slightly when someone is speaking to you. It builds instant rapport.",
+    "id": 126
+  },
+  {
+    "visual_query": "hands open palms",
+    "hook": "The gesture of honesty.",
+    "title": "The Open Palm",
+    "script": "Showing the palms of your hands is a universal sign of honesty and peace. It shows you have no weapons and no hidden agenda. When you speak, keep your hands visible and your palms open. If you hide your hands behind your back or in your pockets, people subconsciously feel distrust. Open hands invite open conversation.",
+    "id": 127
+  },
+  {
+    "visual_query": "eye roll disrespect",
+    "hook": "The most insulting micro-expression.",
+    "title": "The Micro-Expression of Disgust",
+    "script": "A slight curl of the upper lip or a quick flare of the nostrils are micro-expressions of disgust. They happen in a fraction of a second, but they reveal a person's true feelings. If someone shows this when you speak, they are judging you. Don't ignore these signs. Address the tension or remove yourself from the situation.",
+    "id": 128
+  },
+  {
+    "visual_query": "voice pitch deep",
+    "hook": "Why a deep voice sounds more attractive.",
+    "title": "The Voice of Authority",
+    "script": "People with lower pitched voices are perceived as more authoritative, trustworthy, and attractive. This is because lower voices are associated with higher levels of testosterone. You can train yourself to speak from your chest rather than your throat to deepen your voice. Slow down your speech, breathe deeply, and let your voice command the room.",
+    "id": 129
+  },
+  {
+    "visual_query": "distance personal space",
+    "hook": "Why they are standing so close to you.",
+    "title": "The Proximity Principle",
+    "script": "If someone steps into your personal space (less than 1.5 feet), they are either trying to intimidate you or they are deeply attracted to you. It's a way to test your boundaries. If you step back, you show submission. If you hold your ground, you show confidence. If they are in your space and smiling, it's a massive sign of interest.",
+    "id": 130
+  },
+  {
+    "visual_query": "silence awkward stare",
+    "hook": "The power of silence in a conversation.",
+    "title": "The Strategic Silence",
+    "script": "Silence is one of the most powerful tools in communication. Most people rush to fill the silence. They talk too much out of anxiety. If you stay silent after someone speaks, it forces them to elaborate. It makes you seem thoughtful and confident. In a negotiation, the first person to speak usually loses. Master the pause.",
+    "id": 131
+  },
+  {
+    "visual_query": "wolf pack leadership",
+    "hook": "How to command respect without speaking.",
+    "title": "The Alpha Presence",
+    "script": "True leaders don't need to shout. They command respect through their presence. They speak calmly, listen intently, and rarely react emotionally. They are not easily offended because they are secure in their power. When you stop seeking external validation and trust yourself, you naturally attract followers. Be the calm in the storm.",
+    "id": 132
+  },
+  {
+    "visual_query": "puzzle piece fitting",
+    "hook": "The dark side of empathy.",
+    "title": "The Empathy Trap",
+    "script": "Empathy is a superpower, but it can also be a weakness if used against you. Manipulators exploit your empathy. They play the victim to make you lower your guard. You don't have to absorb everyone's pain. You can understand someone's feelings without being responsible for them. Stay compassionate, but set strict boundaries with energy vampires.",
+    "id": 133
+  },
+  {
+    "visual_query": "shadow following person",
+    "hook": "Why you should keep your goals secret.",
+    "title": "The Hidden Agenda",
+    "script": "If you tell people your plans, they will try to talk you out of them. Friends and family often project their own fears and insecurities onto you. They want you to stay in their comfort zone. The most successful people work in silence and let their results speak for them. Keep your dreams private until they are unignorable.",
+    "id": 134
+  },
+  {
+    "visual_query": "poker face cards",
+    "hook": "How to win any negotiation.",
+    "title": "The Dark Art of Negotiation",
+    "script": "In any negotiation, the person who cares less holds all the power. You must be willing to walk away. If you show how much you want the deal, the other party will exploit you. Never accept the first offer. Stay calm, control your emotions, and demand more than you expect. The world gives to those who demand.",
+    "id": 135
+  },
+  {
+    "visual_query": "foggy mirror truth",
+    "hook": "The truth about people's opinions.",
+    "title": "The Indifference Principle",
+    "script": "The less you care about what people think, the more they respect you. It's a paradox. When you seek approval, you appear weak and needy. When you are indifferent to their opinions, you appear strong and independent. People are attracted to those who don't need them. Stop trying to impress. Just be yourself.",
+    "id": 136
+  },
+  {
+    "visual_query": "mountain peak alone",
+    "hook": "Why you must walk alone.",
+    "title": "The Lonely Path of Growth",
+    "script": "Growth is a lonely path. When you decide to improve your life, you will lose friends. You will outgrow people who are comfortable staying average. They will mock you to bring you back down to their level. Don't let them. It's better to be alone on the mountain than comfortable in the crowd. The view at the top is worth the isolation.",
+    "id": 137
+  },
+  {
+    "visual_query": "chess king checkmate",
+    "hook": "How to destroy your enemy.",
+    "title": "The Sun Tzu Strategy",
+    "script": "The supreme art of war is to subdue the enemy without fighting. Sun Tzu said this 2,000 years ago, but it's still true in life. Don't get dragged into petty arguments. Don't seek revenge. The best revenge is massive success. Live your life so well that they are irrelevant. Ignoring someone is the ultimate power move.",
+    "id": 138
+  },
+  {
+    "visual_query": "money flowing wealth",
+    "hook": "The psychology of wealth.",
+    "title": "The Abundance Mindset",
+    "script": "Poor people think in scarcity: 'There is only one pie, and someone else is taking my slice.' Rich people think in abundance: 'I can bake a bigger pie.' Your mindset shapes your reality. If you are stuck in a scarcity loop, you will always be broke. Shift your focus from what you lack to what you can create. Money flows where value is created.",
+    "id": 139
+  },
+  {
+    "visual_query": "clock fast time",
+    "hook": "Why you must learn to say no.",
+    "title": "The Power of Saying No",
+    "script": "Every time you say 'yes' to someone else, you are saying 'no' to yourself. Your time is your most valuable asset. If you don't build boundaries, people will use you. Saying 'no' is not selfish; it's self-preservation. The people who respect you will respect your boundaries. The ones who don't, are the ones you need to cut off anyway.",
+    "id": 140
+  },
+  {
+    "visual_query": "gossip whispering",
+    "hook": "The truth about people who gossip.",
+    "title": "The Gossip Filter",
+    "script": "People who gossip to you will gossip about you. If someone feels comfortable telling you negative things about others, they will do the same to you behind your back. They are trying to create a false bond of intimacy by teaming up against someone else. Don't participate. Protect your reputation by avoiding toxic circles.",
+    "id": 141
+  },
+  {
+    "visual_query": "lonely crowd walking",
+    "hook": "Why you must learn to be alone.",
+    "title": "The Art of Solitude",
+    "script": "You can't find peace in a crowd. You have to find it within yourself. Learning to enjoy your own company is a superpower. It means you don't depend on external validation. You don't need people to entertain you or make you feel worthy. When you are comfortable being alone, you never stay in toxic relationships out of fear.",
+    "id": 142
+  },
+  {
+    "visual_query": "mirror broken reflection",
+    "hook": "The trap of perfectionism.",
+    "title": "The Perfectionist Trap",
+    "script": "Perfectionism is procrastination disguised as high standards. You wait for the perfect moment, the perfect plan, the perfect words. But perfection doesn't exist. Action beats perfection every time. Done is better than perfect. Launch the project, make the mistake, learn, and iterate. If you wait until it's perfect, it will never happen.",
+    "id": 143
+  },
+  {
+    "visual_query": "playing victim sad",
+    "hook": "Why the victim mindset destroys you.",
+    "title": "The Victim Mentality",
+    "script": "The moment you blame someone else for your problems, you give them power over you. You become a victim. You cannot change what happened to you, but you can change how you react. Taking extreme ownership of your life is terrifying, but it's the only way to gain freedom. Stop complaining. Start fixing.",
+    "id": 144
+  },
+  {
+    "visual_query": "people masks society",
+    "hook": "The truth about social media.",
+    "title": "The Digital Illusion",
+    "script": "Social media is a highlight reel of fake lives. People only post their wins, never their losses. You are comparing your behind-the-scenes to their highlight reel. This is a recipe for depression. Remember that the guy with the car might be drowning in debt. The couple might be fighting behind closed doors. Don't let their fake reality destroy your real peace.",
+    "id": 145
+  },
+  {
+    "visual_query": "hand reaching out",
+    "hook": "Why you should help others.",
+    "title": "The Reciprocity Principle",
+    "script": "When you do something nice for someone, they feel a psychological need to repay you. This is the law of reciprocity. If you want something, give something first. Provide value without asking for anything in return. The universe has a way of giving it back to you. This is how successful people build networks and make friends in high places.",
+    "id": 146
+  },
+  {
+    "visual_query": "spiral hypnosis focus",
+    "hook": "The secret to manipulating people.",
+    "title": "The Yes Ladder",
+    "script": "The Yes Ladder is a sales and persuasion technique. You ask a series of questions where the answer is obviously 'yes'. This puts the person in a state of agreement. Once they are used to saying yes, you ask your main question. They are psychologically primed to say yes again. It's a powerful tactic used in sales, dating, and influence.",
+    "id": 147
+  },
+  {
+    "visual_query": "tunnel vision focus",
+    "hook": "Why you should ignore people.",
+    "title": "The Tunnel Vision Focus",
+    "script": "The world is designed to distract you. They want you to scroll, watch, and consume. If you want to be successful, you must develop tunnel vision. Focus on one thing and ignore everything else. Say no to distractions. Delete the apps, cancel the plans, and get to work. Focus is the new superpower.",
+    "id": 148
+  },
+  {
+    "visual_query": "crown head power",
+    "hook": "The psychology of power.",
+    "title": "The Illusion of Power",
+    "script": "Power is an illusion. It is given to you by the people you lead. If you abuse it, you will lose it. True leaders don't rule by fear; they rule by respect and inspiration. They empower others. The people who act arrogant are usually the most insecure. True power is calm, silent, and secure in itself.",
+    "id": 149
+  },
+  {
+    "visual_query": "path forest journey",
+    "hook": "The truth about your potential.",
+    "title": "The Untapped Potential",
+    "script": "You are only using 10% of your true potential. You let fear, doubt, and the opinions of others dictate your life. You settle for average when you could be exceptional. The only thing standing between you and your dream life is your own mind. Break the chains of your comfort zone. The world is waiting for your greatness.",
+    "id": 150
+  },
+  {
+    "visual_query": "clock focus timer",
+    "hook": "The ultimate focus hack.",
+    "title": "The Pomodoro Technique",
+    "script": "Your brain can't focus for hours. It needs breaks. Use the Pomodoro Technique: work for 25 minutes, then take a 5-minute break. Your brain works with urgency, and the breaks prevent burnout. If you want to get more done in less time, work in intense sprints, not marathons. Your time is precious. Use it wisely.",
+    "id": 151
+  },
+  {
+    "visual_query": "running track start",
+    "hook": "How to beat procrastination instantly.",
+    "title": "The 2-Minute Rule",
+    "script": "You don't need motivation to start; you need momentum. Use the 2-Minute Rule. If a task takes less than two minutes, do it immediately. If it takes longer, just commit to doing the first two minutes. Starting is the hardest part. Once you begin, your brain naturally wants to finish. Stop overthinking and just start.",
+    "id": 152
+  },
+  {
+    "visual_query": "morning sunlight wake up",
+    "hook": "The morning routine of billionaires.",
+    "title": "The Morning Advantage",
+    "script": "The first hour of your day sets the tone for the rest. If you wake up and immediately check your phone, you are starting your day reacting to other people's agendas. Wake up early, avoid your phone, and spend time on yourself. Read, exercise, or plan your day. Win the morning, win the day.",
+    "id": 153
+  },
+  {
+    "visual_query": "phone dark silent",
+    "hook": "Why you must do a dopamine detox.",
+    "title": "The Dopamine Detox",
+    "script": "Every time you check your phone, you get a hit of dopamine. But not the reward; the anticipation of a reward. This is a variable reward system. It keeps you hooked like a slot machine. To regain focus, do a dopamine detox. Remove the triggers. Let your brain reset to appreciate real, slow rewards. Silence the noise.",
+    "id": 154
+  },
+  {
+    "visual_query": "mountain goal climb",
+    "hook": "The secret to achieving any goal.",
+    "title": "The Compound Effect",
+    "script": "You don't get rich in one day. You don't get fit in one day. Success is the result of small, consistent actions repeated over time. This is the Compound Effect. If you improve by just 1% every day, you will be 37 times better in a year. The problem is we want results instantly. Be patient. Trust the process.",
+    "id": 155
+  },
+  {
+    "visual_query": "habit loop spinning",
+    "hook": "How to break a bad habit.",
+    "title": "The Habit Loop",
+    "script": "Every habit has a loop: Cue, Routine, Reward. To break a bad habit, you don't need willpower. You need to change the routine while keeping the cue and the reward. If you eat junk food when you're bored (cue), find a different routine. Go for a walk. The goal is to replace the bad habit with a good one.",
+    "id": 156
+  },
+  {
+    "visual_query": "deep focus work",
+    "hook": "Why multitasking is a lie.",
+    "title": "The Multitasking Myth",
+    "script": "Multitasking is a myth. Your brain cannot focus on two complex tasks at once. It just switches rapidly between them, losing energy each time. This is called context switching. It lowers your IQ and increases your mistakes. If you want to be successful, do one thing at a time. Deep work beats busy work every single time.",
+    "id": 157
+  },
+  {
+    "visual_query": "bed sleep night",
+    "hook": "The secret to a productive day.",
+    "title": "The Sleep Connection",
+    "script": "You cannot cheat sleep. If you sleep less than 7 hours, your cognitive performance drops drastically. Your memory consolidates while you sleep. If you don't sleep, you don't learn. Stop bragging about how little you sleep. It's not a badge of honor; it's a sign of poor time management. Sleep is your competitive advantage.",
+    "id": 158
+  },
+  {
+    "visual_query": "brain reading book",
+    "hook": "The habit of rich people.",
+    "title": "The Reading Habit",
+    "script": "Rich people read. Poor people watch TV. It's a harsh generalization, but it's statistically true. Reading expands your mind, gives you new perspectives, and keeps you ahead of the curve. You don't need to read 100 books a year. Just read 10 pages a day. That's 12 books a year. It will change your life.",
+    "id": 159
+  },
+  {
+    "visual_query": "water glass health",
+    "hook": "The silent cause of your fatigue.",
+    "title": "The Hydration Secret",
+    "script": "You are not tired; you are dehydrated. Even a 2% drop in hydration can cause brain fog, fatigue, and lack of focus. Most people walk around chronically dehydrated. Drink water before you drink coffee. Keep a water bottle with you at all times. It's the cheapest and most effective performance enhancer.",
+    "id": 160
+  },
+  {
+    "visual_query": "tunnel vision focus",
+    "hook": "How to increase your willpower.",
+    "title": "The Willpower Muscle",
+    "script": "Willpower is like a muscle. It gets tired when you use it too much. But you can train it to become stronger. Start with small tasks. Make your bed, do the dishes, resist one temptation a day. The more you practice self-discipline, the easier it becomes. You build your willpower one small win at a time.",
+    "id": 161
+  },
+  {
+    "visual_query": "empty plate fasting",
+    "hook": "The brain benefits of fasting.",
+    "title": "The Intermittent Fasting Effect",
+    "script": "Intermittent fasting is not just for weight loss. When you fast, your body triggers a process called autophagy, where it cleans out damaged cells. It also increases BDNF, which helps your brain grow new neurons. Fasting gives your digestive system a break and sharpens your mind. Try skipping breakfast for a week and feel the difference.",
+    "id": 162
+  },
+  {
+    "visual_query": "sunlight walking nature",
+    "hook": "The fastest way to cure anxiety.",
+    "title": "The Nature Cure",
+    "script": "Anxiety is a modern disease. We are stuck in concrete boxes staring at screens. Nature is the antidote. Just 20 minutes in a natural environment lowers cortisol levels and reduces stress. It's called forest bathing. Go for a walk in the park. Touch the grass. Look at the trees. Your brain evolved in nature, not in traffic.",
+    "id": 163
+  },
+  {
+    "visual_query": "people laughing social",
+    "hook": "The secret to living longer.",
+    "title": "The Blue Zones",
+    "script": "Researchers studied the longest-living people in the world (Blue Zones). They didn't find a magic pill. They found a lifestyle. They eat mostly plants, move naturally, have a sense of purpose, and belong to a community. Connection is the most powerful longevity drug. Loneliness kills. Find your tribe.",
+    "id": 164
+  },
+  {
+    "visual_query": "mountain peak sunrise",
+    "hook": "Why you must embrace the pain.",
+    "title": "The Growth Mindset",
+    "script": "Comfort is the enemy of growth. You only grow when you are challenged. When you face obstacles, your brain adapts and becomes stronger. This is neuroplasticity. If you avoid pain, you stay weak. Embrace the struggle. The pain you feel today is the strength you will feel tomorrow. Struggle is a feature, not a bug.",
+    "id": 165
   }
 ]
