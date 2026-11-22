@@ -208,5 +208,250 @@
     "title": "Social Proof",
     "script": "If everyone is doing it, it must be right. This is Social Proof. We look to others to determine the correct behavior, especially in uncertain situations. That's why companies use reviews and influencers. Be aware: the crowd is not always right. Think for yourself before you follow.",
     "id": 30
+  },
+  {
+    "visual_query": "sad person alone cafe",
+    "hook": "Nobody actually cares about your problems.",
+    "title": "The Harsh Truth About Empathy",
+    "script": "The truth is, people only ask how you are doing to be polite. They don't actually want to hear about your struggles. They have their own problems. Stop seeking pity. Instead of complaining, focus on fixing your life quietly. The world respects strength, not victims.",
+    "id": 31
+  },
+  {
+    "visual_query": "fake friends party",
+    "hook": "Your friends don't want you to succeed.",
+    "title": "The Jealousy of Friends",
+    "script": "It hurts, but your closest friends might be your biggest haters. When you outgrow them, they feel left behind. They might pretend to be happy for you, but secretly they wish it was them. Keep your goals private. Let your success speak for itself.",
+    "id": 32
+  },
+  {
+    "visual_query": "office worker stressed",
+    "hook": "You are replaceable at your job.",
+    "title": "The Corporate Illusion",
+    "script": "No matter how hard you work, you are just a number to your company. If you die tonight, they will post a job opening tomorrow. Stop sacrificing your health and family for a job that would replace you in a week. Work to live, don't live to work.",
+    "id": 33
+  },
+  {
+    "visual_query": "old hands holding young",
+    "hook": "Your parents are getting older.",
+    "title": "The Regret of Time",
+    "script": "Every day you ignore your parents' calls, they get older. You think you have all the time in the world to make things right. You don't. One day, that phone will stop ringing. Put down your phone, look at them, and appreciate the time you have left.",
+    "id": 34
+  },
+  {
+    "visual_query": "couple arguing money",
+    "hook": "Money buys happiness.",
+    "title": "The Financial Truth",
+    "script": "They say money doesn't buy happiness, but poverty buys nothing but misery. Most of your relationship problems and stress come down to a lack of money. Stop romanticizing struggle. Getting your finances right is the most important step to a peaceful life.",
+    "id": 35
+  },
+  {
+    "visual_query": "hourglass time",
+    "hook": "You will be forgotten in 100 years.",
+    "title": "The Existential Truth",
+    "script": "In 100 years, no one will remember your name. All the embarrassing things you did, the people you tried to impress—none of it will matter. So why are you living in fear of judgment? Take the risk, be yourself, and do what makes you happy. You're dead for a long time.",
+    "id": 36
+  },
+  {
+    "visual_query": "hospital waiting room",
+    "hook": "Your toxic ex will never change.",
+    "title": "The Relationship Trap",
+    "script": "You keep going back because you remember the good times. But the truth is, they showed you who they were. They don't change, they just get better at lying. You are wasting your best years on someone who doesn't value you. Let go and save yourself.",
+    "id": 37
+  },
+  {
+    "visual_query": "flying plane clouds",
+    "hook": "You are not as busy as you think.",
+    "title": "The Busy Lie",
+    "script": "Saying 'I am too busy' is a lie. It's just a polite way of saying 'it's not a priority.' We all have 24 hours. The successful people just use theirs better. Stop using busyness as an excuse to hide your lack of priorities. Own your time.",
+    "id": 38
+  },
+  {
+    "visual_query": "mask hiding face",
+    "hook": "You are projecting your insecurities.",
+    "title": "The Mirror Effect",
+    "script": "When you judge someone harshly, you are actually seeing a reflection of your own insecurities. We hate in others what we fear in ourselves. Before you criticize someone, ask yourself: 'Why does this bother me so much?' Work on your inner self instead of judging others.",
+    "id": 39
+  },
+  {
+    "visual_query": "smartphone dark bedroom",
+    "hook": "Your social media is a mask.",
+    "title": "The Loneliness Illusion",
+    "script": "You scroll through Instagram looking at fake lives, feeling lonely and left out. The irony is, everyone else is just as lonely as you are. They are just faking it better. Disconnect to connect. Real life happens outside the screen.",
+    "id": 40
+  },
+  {
+    "visual_query": "long empty road",
+    "hook": "Your childhood trauma controls you.",
+    "title": "The Invisible Program",
+    "script": "You think you are making rational choices, but you are just playing out a script written in your childhood. Every fear, every toxic relationship choice, is a result of your past. You cannot heal what you refuse to face. Acknowledge your trauma or it will keep destroying your life.",
+    "id": 41
+  },
+  {
+    "visual_query": "mountain climber falling",
+    "hook": "Hard work alone is not enough.",
+    "title": "The Brutal Reality of Success",
+    "script": "You can work harder than anyone else and still fail. Success is not just about effort; it's about strategy, luck, and timing. The world owes you nothing. Stop feeling entitled to success just because you worked hard. Start working smart and networking.",
+    "id": 42
+  },
+  {
+    "visual_query": "chess king falling",
+    "hook": "Your opinions don't matter.",
+    "title": "The Egocentric Bias",
+    "script": "You spend hours arguing with strangers online. You think you can change their minds. The truth is, nobody cares about your opinion as much as you do. Most people are too busy worrying about themselves. Stop wasting energy trying to win pointless arguments.",
+    "id": 43
+  },
+  {
+    "visual_query": "clock ticking fast",
+    "hook": "You are running out of time.",
+    "title": "The Procrastination Truth",
+    "script": "You think you have a lot of time, but you don't. Life is a series of fleeting moments. You are sacrificing your dreams for temporary comfort. You are not going to live forever. Stop waiting for the perfect moment and start right now.",
+    "id": 44
+  },
+  {
+    "visual_query": "mirror reflection dark",
+    "hook": "You are the problem.",
+    "title": "Taking Extreme Ownership",
+    "script": "You blame your boss, your parents, and your circumstances for your life. The hard truth is, you are the only one responsible. You cannot change the world, but you can change yourself. Own your mistakes. The moment you take extreme ownership, your life begins to change.",
+    "id": 45
+  },
+  {
+    "visual_query": "manipulation strings",
+    "hook": "How manipulators turn everything on you.",
+    "title": "DARVO Manipulation Tactic",
+    "script": "When you confront a manipulator, they use DARVO: Deny, Attack, and Reverse Victim and Offender. They deny the behavior, attack you for bringing it up, and suddenly they are the victim. Stop arguing. Recognize the tactic and walk away. You cannot win against someone playing the victim.",
+    "id": 46
+  },
+  {
+    "visual_query": "explosion love hearts",
+    "hook": "Love bombing is a trap.",
+    "title": "The Danger of Love Bombing",
+    "script": "If someone overwhelms you with affection and gifts too early, beware. This is Love Bombing. It's a tactic used by narcissists to gain control. They make you addicted to the high, then slowly withdraw the affection to manipulate you. Real love builds slowly; it doesn't suffocate you.",
+    "id": 47
+  },
+  {
+    "visual_query": "breadcrumbs trail",
+    "hook": "Why they only text you when you move on.",
+    "title": "Breadcrumbing Explained",
+    "script": "They don't want you, but they don't want you to move on. This is Breadcrumbing. They throw you tiny crumbs of attention to keep you hooked. They give just enough to keep your hope alive. Block them. The only way to win this game is to stop playing.",
+    "id": 48
+  },
+  {
+    "visual_query": "gaslighting light flicker",
+    "hook": "Signs you are being gaslighted.",
+    "title": "How Gaslighting Works",
+    "script": "Gaslighting is a form of psychological abuse where they make you question your own reality. You hear things like 'You are crazy' or 'That never happened.' They rewrite history to make you the villain. Trust your memory. If someone constantly makes you doubt yourself, cut them off.",
+    "id": 49
+  },
+  {
+    "visual_query": "scale balance relationship",
+    "hook": "The 80/20 rule in dating.",
+    "title": "The 80/20 Rule in Relationships",
+    "script": "The 80/20 rule states that 80% of your relationship satisfaction comes from 20% of your partner's actions. But often, people leave a good 80% to chase a missing 20% with someone else. No one is perfect. Don't ruin a great connection for a fantasy.",
+    "id": 50
+  },
+  {
+    "visual_query": "alone genius dark",
+    "hook": "Why smart people have fewer friends.",
+    "title": "The Psychology of Isolation",
+    "script": "Smart people often have fewer friends because they value quality over quantity. They see through superficial interactions and fake personalities. They prefer solitude over meaningless socializing. If you are a loner, it doesn't mean you are broken; it means you are selective.",
+    "id": 51
+  },
+  {
+    "visual_query": "eyes looking up",
+    "hook": "How to spot a liar instantly.",
+    "title": "Body Language of Deception",
+    "script": "When people lie, their body language often betrays them. They might look up to their right, touch their nose, or suddenly change their breathing. But the biggest sign is inconsistency. When their words and body language don't match, trust the body language. It never lies.",
+    "id": 52
+  },
+  {
+    "visual_query": "mask smiling evil",
+    "hook": "How to spot a narcissist.",
+    "title": "The Dark Triad Personality",
+    "script": "Narcissists are charming at first. But look closely. They lack empathy, need constant admiration, and explode when criticized. They use people as tools for their own gain. Stop trying to fix them. The only way to beat a narcissist is to remove their access to you.",
+    "id": 53
+  },
+  {
+    "visual_query": "silence quiet room",
+    "hook": "Silence is the ultimate punishment.",
+    "title": "The Psychology of Silent Treatment",
+    "script": "Silent treatment is not just a reaction; it's a form of emotional abuse called Stonewalling. It's designed to make you beg for their attention. They withhold communication to maintain power and control. Stop chasing. Show them you are fine with the silence too.",
+    "id": 54
+  },
+  {
+    "visual_query": "cheating shadows",
+    "hook": "Why people cheat in happy relationships.",
+    "title": "The Psychology of Cheating",
+    "script": "People don't cheat because they are unhappy; they cheat because they are bored or seeking validation. It's often about ego and thrill, not a lack of love for their partner. Cheating is a choice, a coping mechanism for their own insecurities. Don't blame yourself for their weakness.",
+    "id": 55
+  },
+  {
+    "visual_query": "magnet attraction",
+    "hook": "The secret of attraction.",
+    "title": "The Proximity Effect",
+    "script": "We are attracted to people who are physically close to us. This is the Proximity Effect. The more we see someone, the more we like them, even if we didn't initially. The mere exposure effect. If you want to win someone over, be around them consistently. Presence is power.",
+    "id": 56
+  },
+  {
+    "visual_query": "letting go rope",
+    "hook": "How to detach emotionally.",
+    "title": "The Art of Emotional Detachment",
+    "script": "You cannot control what others do, but you can control your reaction. Emotional detachment doesn't mean you don't care; it means you don't let their actions dictate your peace. Let go of the outcome. Focus on yourself. The moment you stop needing their approval, you win.",
+    "id": 57
+  },
+  {
+    "visual_query": "broken heart fixing",
+    "hook": "The 'I can fix them' syndrome.",
+    "title": "The Rescuer Syndrome",
+    "script": "You are not a rehabilitation center for broken people. If someone is toxic, damaged, or unavailable, it's not your job to fix them. People who refuse to heal themselves will end up breaking you. Stop confusing pity with love. Choose someone who is already whole.",
+    "id": 58
+  },
+  {
+    "visual_query": "red flags",
+    "hook": "Why you attract toxic people.",
+    "title": "Attracting the Wrong People",
+    "script": "You attract toxic people because your boundaries are weak. They know you will tolerate bad behavior, give second chances, and accept less than you deserve. They sense your empathy and use it against you. Build boundaries. Toxic people run away the moment you stand up for yourself.",
+    "id": 59
+  },
+  {
+    "visual_query": "phone scrolling doom",
+    "hook": "How social media is destroying your brain.",
+    "title": "The FOMO Effect",
+    "script": "FOMO (Fear of Missing Out) is a dopamine trap. Social media shows you a highlight reel, making you feel like everyone else is living a better life. It’s a lie. The more you compare, the more miserable you become. Delete the app. Focus on your own reality.",
+    "id": 60
+  },
+  {
+    "visual_query": "hidden eyes watching",
+    "hook": "How to read someone's true intentions.",
+    "title": "Actions Over Words",
+    "script": "People will tell you exactly who they are, but they use actions, not words. If they show up late, if they ignore your messages, if they only call when they need something, pay attention. Actions are the only language that matters. Stop listening to what they say; watch what they do.",
+    "id": 61
+  },
+  {
+    "visual_query": "guilt trip sad",
+    "hook": "How guilt-tripping controls you.",
+    "title": "The Guilt Trip Manipulation",
+    "script": "Manipulators use guilt to control you. They make you feel responsible for their happiness or sadness. 'If you loved me, you would do this.' It's an invisible cage. Stop proving yourself. Healthy people don't make you feel guilty for setting boundaries.",
+    "id": 62
+  },
+  {
+    "visual_query": "sensitive person alone",
+    "hook": "Why highly sensitive people suffer.",
+    "title": "The Curse of Empathy",
+    "script": "Highly sensitive people absorb the emotions of everyone around them. This is why you feel exhausted after socializing. You are a sponge for other people's energy. You have to learn to build a shield. You cannot pour from an empty cup. Protect your peace at all costs.",
+    "id": 63
+  },
+  {
+    "visual_query": "broken heart puzzle",
+    "hook": "Why you stay in bad relationships.",
+    "title": "The Intermittent Reinforcement",
+    "script": "Intermittent reinforcement is a psychological trap used in slot machines, and toxic relationships. The unpredictable mix of love and neglect creates a trauma bond. You stay because you are chasing the next high. The good days are just enough to keep you hooked.",
+    "id": 64
+  },
+  {
+    "visual_query": "mask face unveil",
+    "hook": "How to spot fake confidence.",
+    "title": "The Imposter Syndrome",
+    "script": "True confidence is quiet. Insecurity is loud. People who constantly brag, put others down, and seek validation are usually deeply insecure. They are overcompensating. Don't be intimidated by their noise. Real power is silent. Focus on building your own empire.",
+    "id": 65
   }
 ]
