@@ -1153,5 +1153,355 @@
     "title": "The Growth Mindset",
     "script": "Comfort is the enemy of growth. You only grow when you are challenged. When you face obstacles, your brain adapts and becomes stronger. This is neuroplasticity. If you avoid pain, you stay weak. Embrace the struggle. The pain you feel today is the strength you will feel tomorrow. Struggle is a feature, not a bug.",
     "id": 165
+  },
+  {
+    "visual_query": "money flowing wealth",
+    "hook": "Why poor people stay poor.",
+    "title": "The Scarcity Mindset",
+    "script": "Poverty is not just a lack of money; it's a mindset. People in a scarcity mindset focus only on short-term survival. They can't plan for the future because they are too busy surviving today. To break the cycle, shift your focus from what you lack to how you can create value.",
+    "id": 166
+  },
+  {
+    "visual_query": "shopping bags spending",
+    "hook": "Why you spend money you don't have.",
+    "title": "The Retail Therapy Trap",
+    "script": "Shopping gives you a temporary dopamine hit. When you feel sad, you buy things to feel better. But the joy lasts a day, and the debt lasts a year. Retail therapy is a trap. If you want to be rich, stop using money to fix your emotions.",
+    "id": 167
+  },
+  {
+    "visual_query": "rich man suit",
+    "hook": "The truth about rich people.",
+    "title": "The Wealthy Mindset",
+    "script": "Rich people don't work for money; they make their money work for them. They invest in assets, not liabilities. They delay gratification. If you want to be rich, change your relationship with money. It's not something you spend; it's a tool to build freedom.",
+    "id": 168
+  },
+  {
+    "visual_query": "price tag expensive",
+    "hook": "Why you buy things you don't need.",
+    "title": "The Status Trap",
+    "script": "You don't buy the Rolex because it tells time better. You buy it to show status. But status is a race you can never win. Stop buying status symbols and start buying your freedom.",
+    "id": 169
+  },
+  {
+    "visual_query": "piggy bank savings",
+    "hook": "The secret to saving money.",
+    "title": "The Automation Rule",
+    "script": "Willpower is a limited resource. Don't rely on it to save money. Automate it. Set up an automatic transfer to a savings account the day you get paid. Pay yourself first. If you don't see the money, you won't spend it.",
+    "id": 170
+  },
+  {
+    "visual_query": "stock market graph",
+    "hook": "Why you always lose in the market.",
+    "title": "The Fear and Greed Cycle",
+    "script": "The stock market is driven by fear and greed. When everyone is greedy, prices are high. When everyone is fearful, prices are low. The masses buy high and sell low. To win, be a contrarian.",
+    "id": 171
+  },
+  {
+    "visual_query": "empty wallet broke",
+    "hook": "The hidden cost of being poor.",
+    "title": "The Poverty Tax",
+    "script": "It's expensive to be poor. If you can't afford good shoes, you buy cheap ones that wear out quickly. You have to invest in quality. It's a mindset shift from short-term saving to long-term wealth.",
+    "id": 172
+  },
+  {
+    "visual_query": "burning money",
+    "hook": "Why you need to take more risks.",
+    "title": "The Risk Paradox",
+    "script": "Playing it safe is the riskiest thing you can do. The biggest risk is not taking any risk. Bet on yourself. You are your most valuable asset. Invest in your skills, and the money will follow.",
+    "id": 173
+  },
+  {
+    "visual_query": "phone crypto trading",
+    "hook": "The truth about get-rich-quick schemes.",
+    "title": "The Overnight Success Myth",
+    "script": "Overnight success is a myth. The people who win big worked for years in the shadows. If you want to be rich, play the long game. Stop looking for shortcuts. There are none.",
+    "id": 174
+  },
+  {
+    "visual_query": "ladder success",
+    "hook": "How to increase your income fast.",
+    "title": "The Skills Economy",
+    "script": "You are paid based on the value you bring to the market. Stop complaining about your boss. Learn a high-income skill. The market will pay you exactly what you are worth.",
+    "id": 175
+  },
+  {
+    "visual_query": "credit card debt",
+    "hook": "Why you are trapped in debt.",
+    "title": "The Compound Interest",
+    "script": "Compound interest is either the greatest force for wealth or poverty. When you save, it works for you. When you take high-interest debt, it works against you. Pay off your credit cards. Live below your means.",
+    "id": 176
+  },
+  {
+    "visual_query": "scale rich poor",
+    "hook": "Why you should stop trying to look rich.",
+    "title": "The Millionaire Next Door",
+    "script": "The people driving Ferraris are usually broke. Real millionaires drive Toyotas. Wealth is what you don't see. It's the assets in your account, not the car in your driveway.",
+    "id": 177
+  },
+  {
+    "visual_query": "calculator numbers",
+    "hook": "The money rule you must follow.",
+    "title": "The 50/30/20 Rule",
+    "script": "You need a budget. Spend 50% on needs, 30% on wants, and save 20%. If you can't follow this, you are living beyond your means. Cut your wants and increase your investments.",
+    "id": 178
+  },
+  {
+    "visual_query": "bank vault gold",
+    "hook": "Why cash is a losing game.",
+    "title": "The Inflation Trap",
+    "script": "If your money is sitting in a savings account, you are losing money. Inflation eats the value of your cash every year. Invest in assets that outpace inflation. Don't let inflation steal your future.",
+    "id": 179
+  },
+  {
+    "visual_query": "mirror reflection money",
+    "hook": "Your self-worth is tied to your net-worth.",
+    "title": "The Self-Worth Connection",
+    "script": "Many people tie their self-worth to their bank account. This is dangerous. You are not your money. Cultivate your character, your health, and your relationships. Those are the real currencies of life.",
+    "id": 180
+  },
+  {
+    "visual_query": "stormy ocean calm",
+    "hook": "The secret to controlling your anger.",
+    "title": "The 10-Second Rule",
+    "script": "When anger rises, your brain is hijacked. Use the 10-second rule. Stop, breathe, and count to 10. Do not speak. After 10 seconds, you can respond calmly instead of reacting stupidly.",
+    "id": 181
+  },
+  {
+    "visual_query": "sad person window rain",
+    "hook": "The truth about grief.",
+    "title": "The Pain of Loss",
+    "script": "Grief is not linear. It's a roller coaster. Don't suppress the pain. The only way out of grief is through it. If you numb the pain, you numb the joy too. Healing takes time.",
+    "id": 182
+  },
+  {
+    "visual_query": "stoic statue marble",
+    "hook": "The ancient secret to a peaceful life.",
+    "title": "The Stoic Principle",
+    "script": "Stoicism is understanding that you can only control your mind, not the outside world. Focus only on your reaction. It's not what happens to you, it's how you react to it.",
+    "id": 183
+  },
+  {
+    "visual_query": "mask hiding face fear",
+    "hook": "Why you are afraid of success.",
+    "title": "The Fear of Success",
+    "script": "You think you are afraid of failing, but you are afraid of succeeding. Success means pressure and outgrowing your friends. Stop letting fear win. Step into your power.",
+    "id": 184
+  },
+  {
+    "visual_query": "mountain peak victory",
+    "hook": "The secret to building mental toughness.",
+    "title": "The Pain Tolerance",
+    "script": "Mental toughness is built in discomfort. Every time you overcome a small struggle, you build mental muscle. Don't run from discomfort. Embrace it.",
+    "id": 185
+  },
+  {
+    "visual_query": "hands holding earth",
+    "hook": "How to forgive someone who hurt you.",
+    "title": "The Forgiveness Secret",
+    "script": "Forgiveness is for you. Holding a grudge is like drinking poison and waiting for the other person to die. Forgive them because you deserve peace. Let it go.",
+    "id": 186
+  },
+  {
+    "visual_query": "time clock patience",
+    "hook": "Why you need to practice patience.",
+    "title": "The Art of Patience",
+    "script": "Patience is trusting the process. Most people plant a seed and dig it up to check if it's growing. Consistency and patience are the secrets of every successful person.",
+    "id": 187
+  },
+  {
+    "visual_query": "broken heart mending",
+    "hook": "How to heal from a breakup.",
+    "title": "The Breakup Cure",
+    "script": "The fastest way to get over someone is to delete them. No contact. Block them. Remove the triggers. Time heals, but only if you stop feeding the pain.",
+    "id": 188
+  },
+  {
+    "visual_query": "candle burning alone",
+    "hook": "The truth about toxic positivity.",
+    "title": "The Danger of Fake Smiles",
+    "script": "Toxic positivity is telling people to just be happy when they are hurting. It's okay to feel sad. Suppressing your emotions makes them stronger. Real emotions are better than fake smiles.",
+    "id": 189
+  },
+  {
+    "visual_query": "chess strategy lone",
+    "hook": "Why you should not fight every battle.",
+    "title": "The Strategic Retreat",
+    "script": "Sometimes, winning means walking away. You don't have to argue with every person who provokes you. Your peace is more important than winning an argument.",
+    "id": 190
+  },
+  {
+    "visual_query": "mirror confident reflection",
+    "hook": "The key to unshakable confidence.",
+    "title": "The Self-Validation",
+    "script": "If you need others to tell you that you are good, you will always be insecure. True confidence comes from keeping promises to yourself. Stop seeking approval.",
+    "id": 191
+  },
+  {
+    "visual_query": "sadness crying alone",
+    "hook": "Why crying is actually good for you.",
+    "title": "The Emotional Release",
+    "script": "Crying is a biological release mechanism. Tears contain stress hormones. If you keep your emotions locked inside, they will destroy you. Allow yourself to cry.",
+    "id": 192
+  },
+  {
+    "visual_query": "foggy path future",
+    "hook": "How to deal with uncertainty.",
+    "title": "The Fear of the Unknown",
+    "script": "You cannot control the future. Trying to control it creates anxiety. Accept the uncertainty. Life is an adventure, not a script.",
+    "id": 193
+  },
+  {
+    "visual_query": "heavy weight lifting",
+    "hook": "Why you must carry your own burdens.",
+    "title": "The Radical Responsibility",
+    "script": "No one is coming to save you. You are responsible for your life. Once you accept this, you stop playing the victim and start taking action.",
+    "id": 194
+  },
+  {
+    "visual_query": "sunrise hope new day",
+    "hook": "The secret to beating depression.",
+    "title": "The Action Antidote",
+    "script": "Depression makes you want to do nothing. But doing nothing makes it worse. Start with the tiniest task. The motivation comes after the action, not before.",
+    "id": 195
+  },
+  {
+    "visual_query": "lion courage roar",
+    "hook": "How to face your deepest fears.",
+    "title": "The Fear Setting",
+    "script": "Write down your worst fears. What's the worst that could happen? You will realize the worst-case scenario is survivable. Fear is a liar.",
+    "id": 196
+  },
+  {
+    "visual_query": "labyrinth maze confusion",
+    "hook": "Why you are stuck in life.",
+    "title": "The Analysis Paralysis",
+    "script": "You are stuck because you are overthinking. Life is a river. Jump in, and the current will guide you. Make a decision. It's better to make a mistake than nothing.",
+    "id": 197
+  },
+  {
+    "visual_query": "empty chair lonely",
+    "hook": "The pain of being misunderstood.",
+    "title": "The Loneliness of Depth",
+    "script": "You feel lonely because you are surrounded by people who don't understand you. Don't lower your depth to fit in. Keep searching for your tribe.",
+    "id": 198
+  },
+  {
+    "visual_query": "mirror reflection flaws",
+    "hook": "The secret to self-acceptance.",
+    "title": "The Radical Self-Love",
+    "script": "You are not perfect. Self-love is not thinking you are perfect. It's accepting yourself exactly as you are. Forgive yourself for your past.",
+    "id": 199
+  },
+  {
+    "visual_query": "mountain peak sunrise new",
+    "hook": "The truth about resilience.",
+    "title": "The Bounce Back",
+    "script": "Resilience is how fast you get back up. Life will knock you down. The winners are the ones who get up one more time than they fall.",
+    "id": 200
+  },
+  {
+    "visual_query": "deep focus work",
+    "hook": "The most valuable skill of the 21st century.",
+    "title": "The Deep Work",
+    "script": "The ability to focus without distraction is a superpower. Turn off your phone, close the tabs, and dive deep. Focus is the new IQ.",
+    "id": 201
+  },
+  {
+    "visual_query": "network web connections",
+    "hook": "Your network is your net worth.",
+    "title": "The Network Effect",
+    "script": "You can't build an empire alone. Network to give, not just to take. Iron sharpens iron. Build relationships with successful people.",
+    "id": 202
+  },
+  {
+    "visual_query": "clock 10000 hours",
+    "hook": "The truth about mastery.",
+    "title": "The 10,000 Hour Rule",
+    "script": "It takes 10,000 hours of practice to become an expert. You can't hack it. Even 100 hours will make you better than 90% of people. Start today.",
+    "id": 203
+  },
+  {
+    "visual_query": "falling down stairs failure",
+    "hook": "Why you must fail to succeed.",
+    "title": "The Failure Advantage",
+    "script": "Failure is part of success. Every failure is a lesson. Fail fast, learn fast, and try again.",
+    "id": 204
+  },
+  {
+    "visual_query": "compass finding direction",
+    "hook": "How to find your purpose.",
+    "title": "The Ikigai Concept",
+    "script": "Ikigai is the intersection of what you love, what you are good at, what the world needs, and what you can be paid for.",
+    "id": 205
+  },
+  {
+    "visual_query": "mountain goal climb team",
+    "hook": "Why you need a mentor.",
+    "title": "The Mentor Effect",
+    "script": "A mentor has already walked the path. They can guide you and introduce you to the right people. Ask them to mentor you.",
+    "id": 206
+  },
+  {
+    "visual_query": "water drop ripple",
+    "hook": "The power of small habits.",
+    "title": "The Ripple Effect",
+    "script": "Every action creates a ripple. Make small, positive changes consistently. The ripples will eventually create a wave.",
+    "id": 207
+  },
+  {
+    "visual_query": "lion focus eye",
+    "hook": "The secret to extreme success.",
+    "title": "The Obsession",
+    "script": "The most successful people are obsessed. To be exceptional, you must be obsessed. Balance is for average people.",
+    "id": 208
+  },
+  {
+    "visual_query": "broken chain freedom",
+    "hook": "Why you must break the rules.",
+    "title": "The Status Quo Trap",
+    "script": "The rules are designed to keep you average. The people who change the world break the rules. Build your own path.",
+    "id": 209
+  },
+  {
+    "visual_query": "empty road sunrise",
+    "hook": "The truth about the rat race.",
+    "title": "The Rat Race",
+    "script": "Working 40 hours a week for 40 years to buy things you don't need is a trap. Escape the system. Build passive income.",
+    "id": 210
+  },
+  {
+    "visual_query": "chess strategy",
+    "hook": "How to make better decisions.",
+    "title": "The Second-Order Thinking",
+    "script": "The best thinkers think of the consequences of the consequences. Always play the long game. Don't just think about today.",
+    "id": 211
+  },
+  {
+    "visual_query": "heavy lifting work",
+    "hook": "The truth about hard work.",
+    "title": "The Smart Work",
+    "script": "Hard work is a lie. You can work 18 hours a day digging a ditch, but you won't be a millionaire. The key is leverage. Work smart.",
+    "id": 212
+  },
+  {
+    "visual_query": "mirror reflection identity",
+    "hook": "How to reinvent yourself.",
+    "title": "The Identity Shift",
+    "script": "You can reinvent yourself at any time. Change your identity first. When you change your identity, your actions will follow.",
+    "id": 213
+  },
+  {
+    "visual_query": "mountain peak solo",
+    "hook": "Why you must take extreme ownership.",
+    "title": "The Extreme Ownership",
+    "script": "Stop blaming the economy, your boss, or your parents. Everything in your life is your fault. It hurts, but it gives you the power to change.",
+    "id": 214
+  },
+  {
+    "visual_query": "universe stars cosmic",
+    "hook": "The meaning of life.",
+    "title": "The Cosmic Perspective",
+    "script": "You are a tiny speck of dust on a rock hurtling through space. Your problems don't matter in the grand scheme of the universe. Enjoy the journey and be kind.",
+    "id": 215
   }
 ]
