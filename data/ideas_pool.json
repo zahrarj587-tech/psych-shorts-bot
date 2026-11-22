@@ -1503,5 +1503,355 @@
     "title": "The Cosmic Perspective",
     "script": "You are a tiny speck of dust on a rock hurtling through space. Your problems don't matter in the grand scheme of the universe. Enjoy the journey and be kind.",
     "id": 215
+  },
+  {
+    "visual_query": "clock ticking fast",
+    "hook": "Why time feels faster as you age.",
+    "title": "The Time Dilation",
+    "script": "As you get older, time feels like it's speeding up. This is because your brain has less new information to process. To slow down time, break your routine. Try new things. Make your brain work, and time will stretch.",
+    "id": 216
+  },
+  {
+    "visual_query": "person waking up early",
+    "hook": "The secret to a perfect day.",
+    "title": "The Morning Routine",
+    "script": "The first hour of your day sets the tone for the rest. If you check your phone immediately, you start reacting to other people's agendas. Wake up early, avoid your phone, and focus on yourself. Win the morning, win the day.",
+    "id": 217
+  },
+  {
+    "visual_query": "phone notifications",
+    "hook": "The silent killer of your focus.",
+    "title": "The Notification Trap",
+    "script": "Every time your phone buzzes, your brain releases a drop of dopamine. It's an addiction. Turn off all non-essential notifications. You don't need to know when someone likes your post. Protect your attention. It's your most valuable asset.",
+    "id": 218
+  },
+  {
+    "visual_query": "person reading book",
+    "hook": "Why successful people read.",
+    "title": "The Reading Advantage",
+    "script": "Rich people read. Poor people watch TV. Reading expands your mind and gives you new perspectives. You don't need to read 100 books a year. Just read 10 pages a day. It will change your life.",
+    "id": 219
+  },
+  {
+    "visual_query": "deep focus study",
+    "hook": "The myth of multitasking.",
+    "title": "The Context Switching",
+    "script": "Multitasking is a lie. Your brain just switches rapidly between tasks, losing energy each time. It lowers your IQ and increases mistakes. Do one thing at a time. Deep work beats busy work every single time.",
+    "id": 220
+  },
+  {
+    "visual_query": "sleeping dark room",
+    "hook": "Why you are always tired.",
+    "title": "The Sleep Debt",
+    "script": "You cannot cheat sleep. If you sleep less than 7 hours, your cognitive performance drops drastically. Stop bragging about how little you sleep. It's not a badge of honor. Sleep is your competitive advantage.",
+    "id": 221
+  },
+  {
+    "visual_query": "gym weights",
+    "hook": "The truth about discipline.",
+    "title": "The Motivation Myth",
+    "script": "Motivation is a feeling. Discipline is a system. You won't always feel motivated. That's why you need a routine. Do it when you feel like it, and do it when you don't. That's how you build success.",
+    "id": 222
+  },
+  {
+    "visual_query": "mountain climbing",
+    "hook": "How to build a new habit.",
+    "title": "The 21-Day Rule",
+    "script": "They say it takes 21 days to build a habit. But science says it takes 66 days on average. Start small. Make it so easy you can't fail. Consistency is more important than intensity.",
+    "id": 223
+  },
+  {
+    "visual_query": "water glass hydration",
+    "hook": "The cheapest performance enhancer.",
+    "title": "The Hydration Secret",
+    "script": "You are not tired; you are dehydrated. Even a 2% drop in hydration causes brain fog and fatigue. Drink water before you drink coffee. It's the cheapest and most effective performance enhancer.",
+    "id": 224
+  },
+  {
+    "visual_query": "sunlight morning walk",
+    "hook": "The cure for anxiety is outside.",
+    "title": "The Nature Cure",
+    "script": "We are stuck in concrete boxes. Nature is the antidote. Just 20 minutes in nature lowers cortisol levels and reduces stress. Go for a walk. Touch the grass. Your brain evolved in nature, not in traffic.",
+    "id": 225
+  },
+  {
+    "visual_query": "person saying no",
+    "hook": "Why you need to say NO more often.",
+    "title": "The Power of No",
+    "script": "Every time you say yes to someone else, you are saying no to yourself. If you don't build boundaries, people will use you. Saying no is self-preservation. The people who respect you will respect your boundaries.",
+    "id": 226
+  },
+  {
+    "visual_query": "spiral hypnosis focus",
+    "hook": "How to persuade anyone.",
+    "title": "The Yes Ladder",
+    "script": "The Yes Ladder is a persuasion technique. Ask a series of questions where the answer is obviously yes. This puts the person in a state of agreement. Once they are used to saying yes, they will agree to your main request.",
+    "id": 227
+  },
+  {
+    "visual_query": "shadow following person",
+    "hook": "Why you should keep your goals secret.",
+    "title": "The Hidden Agenda",
+    "script": "If you tell people your plans, they will try to talk you out of them. They project their own fears onto you. The most successful people work in silence. Keep your dreams private until they are unignorable.",
+    "id": 228
+  },
+  {
+    "visual_query": "lion focus eye",
+    "hook": "Why you must ignore people.",
+    "title": "The Tunnel Vision",
+    "script": "The world is designed to distract you. If you want to be successful, develop tunnel vision. Focus on one thing and ignore everything else. Delete the apps, cancel the plans, and get to work. Focus is the new superpower.",
+    "id": 229
+  },
+  {
+    "visual_query": "starving lion hunting",
+    "hook": "The secret to high performance.",
+    "title": "The Hunger Mentality",
+    "script": "When a lion hunts, it doesn't chase every animal. It picks one target and goes all in. Be like the lion. Don't spread yourself thin. Pick one goal and give it everything you have. Obsession is the key to mastery.",
+    "id": 230
+  },
+  {
+    "visual_query": "empty road journey",
+    "hook": "The truth about the comfort zone.",
+    "title": "The Growth Zone",
+    "script": "The comfort zone is a beautiful place, but nothing ever grows there. You only grow when you are challenged. The pain you feel today is the strength you will feel tomorrow. Embrace the struggle.",
+    "id": 231
+  },
+  {
+    "visual_query": "brick wall building",
+    "hook": "Why you fail at your goals.",
+    "title": "The Compound Effect",
+    "script": "You don't get rich in one day. You don't get fit in one day. Success is the result of small actions repeated over time. If you improve by 1% every day, you will be 37 times better in a year.",
+    "id": 232
+  },
+  {
+    "visual_query": "smartphone dark bedroom",
+    "hook": "Why you can't stop scrolling.",
+    "title": "The Dopamine Loop",
+    "script": "Dopamine is not the reward; it's the anticipation of the reward. Social media companies use this against you. Every time you scroll, you don't know what you'll see. That uncertainty keeps you hooked. Break the loop.",
+    "id": 233
+  },
+  {
+    "visual_query": "chess king falling",
+    "hook": "How to make better decisions.",
+    "title": "The Second-Order Thinking",
+    "script": "Most people only think of the immediate consequence of their actions. The best thinkers think of the consequences of the consequences. Always play the long game. Don't just think about today.",
+    "id": 234
+  },
+  {
+    "visual_query": "universe stars cosmic",
+    "hook": "The meaning of life.",
+    "title": "The Cosmic Perspective",
+    "script": "You are a tiny speck of dust on a rock hurtling through space. Your problems don't matter in the grand scheme of the universe. Enjoy the journey and be kind to others. Love is the only meaning.",
+    "id": 235
+  },
+  {
+    "visual_query": "hammer breaking rock",
+    "hook": "Why you should never give up.",
+    "title": "The Stonecutter",
+    "script": "It is not the final blow of the hammer that breaks the stone, but the 100 blows before it. If you give up too early, you lose. Success comes to those who keep swinging even when they see no results.",
+    "id": 236
+  },
+  {
+    "visual_query": "path forest walking",
+    "hook": "How to find your purpose.",
+    "title": "The Hero's Journey",
+    "script": "You are the hero of your own story. You must leave your comfort zone, face trials, defeat your demons, and return transformed. Stop playing the victim. Start playing the hero.",
+    "id": 237
+  },
+  {
+    "visual_query": "empty chair lonely",
+    "hook": "The truth about loneliness.",
+    "title": "The Loneliness of Depth",
+    "script": "If you feel lonely, it's because you are surrounded by people who don't understand you. Don't lower your depth to fit in. Keep searching for your tribe. They exist.",
+    "id": 238
+  },
+  {
+    "visual_query": "sunrise hope new day",
+    "hook": "The secret to beating depression.",
+    "title": "The Action Antidote",
+    "script": "Depression makes you want to do nothing. But doing nothing makes it worse. The motivation comes after the action. You don't need to feel good to start; you need to start to feel good.",
+    "id": 239
+  },
+  {
+    "visual_query": "mirror confident reflection",
+    "hook": "The key to unshakable confidence.",
+    "title": "The Self-Validation",
+    "script": "If you need others to tell you that you are good, you will always be insecure. True confidence comes from keeping promises to yourself. Stop seeking approval.",
+    "id": 240
+  },
+  {
+    "visual_query": "heavy weight lifting",
+    "hook": "Why you must carry your own burdens.",
+    "title": "The Radical Responsibility",
+    "script": "No one is coming to save you. You are responsible for your life. Once you accept this, you stop playing the victim and start taking action.",
+    "id": 241
+  },
+  {
+    "visual_query": "stormy ocean calm",
+    "hook": "The secret to controlling your anger.",
+    "title": "The 10-Second Rule",
+    "script": "When anger rises, your brain is hijacked. Stop, breathe, and count to 10. Do not speak. After 10 seconds, you can respond calmly instead of reacting stupidly.",
+    "id": 242
+  },
+  {
+    "visual_query": "stoic statue marble",
+    "hook": "The ancient secret to a peaceful life.",
+    "title": "The Stoic Principle",
+    "script": "Stoicism is understanding that you can only control your mind, not the outside world. It's not what happens to you, it's how you react to it.",
+    "id": 243
+  },
+  {
+    "visual_query": "mask hiding face fear",
+    "hook": "Why you are afraid of success.",
+    "title": "The Fear of Success",
+    "script": "You think you are afraid of failing, but you are afraid of succeeding. Success means outgrowing your friends. Stop letting fear win.",
+    "id": 244
+  },
+  {
+    "visual_query": "mountain peak victory",
+    "hook": "The secret to building mental toughness.",
+    "title": "The Pain Tolerance",
+    "script": "Mental toughness is built in discomfort. Every time you overcome a small struggle, you build mental muscle. Embrace it.",
+    "id": 245
+  },
+  {
+    "visual_query": "hands holding earth",
+    "hook": "How to forgive someone who hurt you.",
+    "title": "The Forgiveness Secret",
+    "script": "Forgiveness is for you. Holding a grudge is like drinking poison and waiting for the other person to die. Forgive them because you deserve peace.",
+    "id": 246
+  },
+  {
+    "visual_query": "time clock patience",
+    "hook": "Why you need to practice patience.",
+    "title": "The Art of Patience",
+    "script": "Patience is trusting the process. Most people plant a seed and dig it up to check if it's growing. Consistency is the secret of every successful person.",
+    "id": 247
+  },
+  {
+    "visual_query": "broken heart mending",
+    "hook": "How to heal from a breakup.",
+    "title": "The Breakup Cure",
+    "script": "The fastest way to get over someone is to delete them. No contact. Block them. Time heals, but only if you stop feeding the pain.",
+    "id": 248
+  },
+  {
+    "visual_query": "candle burning alone",
+    "hook": "The truth about toxic positivity.",
+    "title": "The Danger of Fake Smiles",
+    "script": "Toxic positivity is telling people to just be happy when they are hurting. It's okay to feel sad. Real emotions are better than fake smiles.",
+    "id": 249
+  },
+  {
+    "visual_query": "chess strategy lone",
+    "hook": "Why you should not fight every battle.",
+    "title": "The Strategic Retreat",
+    "script": "Sometimes, winning means walking away. You don't have to argue with every person who provokes you. Your peace is more important.",
+    "id": 250
+  },
+  {
+    "visual_query": "sadness crying alone",
+    "hook": "Why crying is actually good for you.",
+    "title": "The Emotional Release",
+    "script": "Crying is a biological release mechanism. Tears contain stress hormones. If you keep your emotions locked inside, they will destroy you.",
+    "id": 251
+  },
+  {
+    "visual_query": "foggy path future",
+    "hook": "How to deal with uncertainty.",
+    "title": "The Fear of the Unknown",
+    "script": "You cannot control the future. Trying to control it creates anxiety. Accept the uncertainty. Life is an adventure, not a script.",
+    "id": 252
+  },
+  {
+    "visual_query": "sunrise hope new day",
+    "hook": "Why you need to change your identity.",
+    "title": "The Identity Shift",
+    "script": "You can reinvent yourself at any time. Change your identity first. When you change your identity, your actions will follow.",
+    "id": 253
+  },
+  {
+    "visual_query": "lion courage roar",
+    "hook": "How to face your deepest fears.",
+    "title": "The Fear Setting",
+    "script": "Write down your worst fears. What's the worst that could happen? You will realize the worst-case scenario is survivable. Fear is a liar.",
+    "id": 254
+  },
+  {
+    "visual_query": "labyrinth maze confusion",
+    "hook": "Why you are stuck in life.",
+    "title": "The Analysis Paralysis",
+    "script": "You are stuck because you are overthinking. Life is a river. Jump in, and the current will guide you. Make a decision.",
+    "id": 255
+  },
+  {
+    "visual_query": "mirror reflection flaws",
+    "hook": "The secret to self-acceptance.",
+    "title": "The Radical Self-Love",
+    "script": "You are not perfect. Self-love is accepting yourself exactly as you are. Forgive yourself for your past.",
+    "id": 256
+  },
+  {
+    "visual_query": "mountain peak sunrise new",
+    "hook": "The truth about resilience.",
+    "title": "The Bounce Back",
+    "script": "Resilience is how fast you get back up. Life will knock you down. The winners get up one more time than they fall.",
+    "id": 257
+  },
+  {
+    "visual_query": "deep focus work",
+    "hook": "The most valuable skill.",
+    "title": "The Deep Work",
+    "script": "The ability to focus without distraction is a superpower. Turn off your phone and dive deep. Focus is the new IQ.",
+    "id": 258
+  },
+  {
+    "visual_query": "network web connections",
+    "hook": "Your network is your net worth.",
+    "title": "The Network Effect",
+    "script": "You can't build an empire alone. Network to give, not just to take. Build relationships with successful people.",
+    "id": 259
+  },
+  {
+    "visual_query": "clock 10000 hours",
+    "hook": "The truth about mastery.",
+    "title": "The 10,000 Hour Rule",
+    "script": "It takes 10,000 hours of practice to become an expert. You can't hack it. Start today. Put in the reps.",
+    "id": 260
+  },
+  {
+    "visual_query": "falling down stairs failure",
+    "hook": "Why you must fail to succeed.",
+    "title": "The Failure Advantage",
+    "script": "Failure is part of success. Every failure is a lesson. Fail fast, learn fast, and try again.",
+    "id": 261
+  },
+  {
+    "visual_query": "compass finding direction",
+    "hook": "How to find your purpose.",
+    "title": "The Ikigai Concept",
+    "script": "Ikigai is the intersection of what you love, what you are good at, what the world needs, and what you can be paid for.",
+    "id": 262
+  },
+  {
+    "visual_query": "mountain goal climb team",
+    "hook": "Why you need a mentor.",
+    "title": "The Mentor Effect",
+    "script": "A mentor has already walked the path. They can guide you and introduce you to the right people.",
+    "id": 263
+  },
+  {
+    "visual_query": "water drop ripple",
+    "hook": "The power of small habits.",
+    "title": "The Ripple Effect",
+    "script": "Every action creates a ripple. Make small, positive changes consistently. The ripples will eventually create a wave.",
+    "id": 264
+  },
+  {
+    "visual_query": "broken chain freedom",
+    "hook": "Why you must break the rules.",
+    "title": "The Status Quo Trap",
+    "script": "The rules are designed to keep you average. The people who change the world break the rules. Build your own path.",
+    "id": 265
   }
 ]
