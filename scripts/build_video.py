@@ -130,7 +130,8 @@ def download_nature_images(idea: dict, count: int = 4) -> list[Path]:
 def build_base_video(idea: dict, duration: float) -> Path:
     idea_id = idea.get("id", 1)
     base_video = OUTPUT_DIR / f"tmp_base_{idea_id}.mp4"
-    nature_imgs = download_nature_images(idea, count=4)
+    img_count = max(4, min(10, int(duration // 10) + 1))
+    nature_imgs = download_nature_images(idea, count=img_count)
     if not nature_imgs:
         fallback = ASSETS_DIR / f"fallback_dark_{idea_id}.jpg"
         ASSETS_DIR.mkdir(parents=True, exist_ok=True)

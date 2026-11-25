@@ -72,8 +72,21 @@ async def generate_for_idea(idea: dict) -> None:
     audio_path = OUTPUT_DIR / f"idea_{idea_id}.mp3"
     srt_path = OUTPUT_DIR / f"idea_{idea_id}.srt"
 
-    communicate = edge_tts.Communicate(text=script_text, voice=selected_voice)
-    await communicate.save(str(audio_path))
+    raw_audio_path = OUTPUT_DIR / f"idea_{idea_id}_raw.mp3"
+    communicate = edge_tts.Communicate(text=script_text, voice=selected_voice, rate="-4%")
+    await communicate.save(str(raw_audio_path))
+
+    # توحيد مستوى الصوت وتحسين الوضوح (يحل مشكلة الصوت "الرخيص")
+    subprocess.run(
+        [
+            "ffmpeg", "-y", "-i", str(raw_audio_path),
+            "-af", "loudnorm=I=-16:TP=-1.5:LRA=11,highpass=f=80",
+            "-ar", "44100", "-b:a", "192k",
+            str(audio_path),
+        ],
+        check=True,
+    )
+    raw_audio_path.unlink()
 
     duration = get_duration(audio_path)
     srt_content = build_timed_srt(script_text, duration)
